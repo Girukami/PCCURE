@@ -43,7 +43,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Header -->
 <header class="w3-container header w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">Tech Guru</h1>
+  <h1 class="w3-margin w3-jumbo">PC Cure</h1>
   <p class="w3-xlarge">Repair your PC now!</p>
   <a href="login.php"><button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button></a>
   
