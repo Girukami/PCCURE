@@ -1,7 +1,7 @@
 <?php
     $page_title = 'Login';
-    include '../class/user.class.php';
-    include '../includes/customer/header.php';
+    include_once '../class/user.class.php';
+    include_once '../includes/customer/header.php';
 
     if(isset($_GET['success_message'])){
         $success_message = $_GET['success_message'];
@@ -103,5 +103,5 @@
 </section>
 
 <?php
-    include '../includes/customer/footer.php';
+    include_once '../includes/customer/footer.php';
 ?>
