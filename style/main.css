@@ -35,7 +35,7 @@ body {
 .text-w-line span {
   height: 1px;
   width: 100%;
-  background: #333333;
+  background: #d8d3d3;
   display: block;
 }
 
@@ -167,7 +167,7 @@ body {
   cursor: pointer;
 }
 .header nav .account p {
-  color: #333333;
+  color: #e7e2e2;
   max-width: 130px;
   overflow: hidden;
   white-space: nowrap;
