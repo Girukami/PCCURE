@@ -3,7 +3,7 @@
         private $host = 'localhost';
         private $username = 'root';
         private $password = ''; #password = Wecurepc101
-        private $database = 'pc_repair';
+        private $database = 'u563903406_pc_repair';
 
         protected $connection;
 
