@@ -13,7 +13,7 @@
 }
 
 body {
-  background-image: url(../MainBG.jpg);
+  background-image: url(./root/MainBG.jpg);
 }
 
 .text-w-line {
