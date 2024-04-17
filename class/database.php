@@ -2,7 +2,7 @@
     class Database{
         private $host = 'localhost';
         private $username = 'root';
-        private $password = '';
+        private $password = ''; #password = Wecurepc101
         private $database = 'pc_repair';
 
         protected $connection;
