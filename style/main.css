@@ -12,7 +12,7 @@
   text-decoration: none;
 }
 
-body {
+/* body {
   background: linear-gradient(to right, 
       #303b8c 15%, 
       #425a9e 27%, 
@@ -20,9 +20,7 @@ body {
       #6491c0 66%, 
       #7cb9d7 100% 
   );
-  /* Adjust the direction and colors as needed */
-  /* For example, 'to right' creates a horizontal gradient from left to right */
-}
+} */
 
 
 .text-w-line {
@@ -240,7 +238,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  color: #e9e4e4;
+  color: #211f1f;
   position: relative;
 }
 .login .login-cont {

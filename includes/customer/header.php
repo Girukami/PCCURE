@@ -21,7 +21,17 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
+<style>
+body{
+    background: linear-gradient(to right, 
+        #303b8c 15%, 
+        #425a9e 27%, 
+        #5375ae 32%, 
+        #6491c0 66%, 
+        #7cb9d7 100% 
+  );
+}
+</style>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
