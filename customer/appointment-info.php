@@ -12,7 +12,7 @@
     $appointment = new Appointment;
 
     if(!$appointment->getAppointmentInfo($customer['customer_id'], $appointment_id)){
-        $error_message = 'An error has been occured, please try again.';
+        $error_message = 'An error has been occurred, please try again.';
     }
 
     if(isset($_POST['mark_claimed'])){
