@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>PC Cure</title>
+<title>PC CURE</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -30,6 +30,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-bar w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Services</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Contact Us</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">About Us</a>
   </div>
 
@@ -42,19 +44,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   </div>
 </div>
 
-<!-- Header -->
-<header class="w3-container header w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">PC Cure</h1>
+
+
+<header class="w3-container header w3-center" style="padding:128px 16px; background-image: url(../MainBG.jpg); background-size: cover; background-position: center;">
+  <h1 class="w3-margin w3-jumbo">PC CURE</h1>
   <p class="w3-xlarge">Repair your PC now!</p>
-  <a href="login.php"><button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button></a>
-  
+  <a href="login.php"><button class="w3-button w3-white w3-padding-large w3-large w3-margin-top" style="border-radius: 50px;">Get Started</button></a>
 </header>
+
 
 <!-- First Grid -->
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h1>PC Cure</h1>
+      <h1>PC CURE</h1>
       <h5 class="w3-padding-32">We strongly believe in providing great service, proficient recommendation, and reasonable price for our customers.</h5>
 
       <p class="w3-text-grey">Description.</p>

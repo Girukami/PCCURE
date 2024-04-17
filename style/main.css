@@ -13,7 +13,7 @@
 }
 
 body {
-  background: #333333;
+  background-image: url(../MainBG.jpg);
 }
 
 .text-w-line {
