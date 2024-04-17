@@ -13,8 +13,17 @@
 }
 
 body {
-  background-image: url(../MainBG.jpg);
+  background: linear-gradient(to right, 
+      #303b8c 15%, /* Start color (orange) at 0% */
+      #425a9e 27%, /* Stay orange until 33% */
+      #5375ae 32%, /* Start transitioning to pink at 33% */
+      #6491c0 66%, /* Stay pink until 66% */
+      #7cb9d7 100% /* Start transitioning to blue at 66% */
+  );
+  /* Adjust the direction and colors as needed */
+  /* For example, 'to right' creates a horizontal gradient from left to right */
 }
+
 
 .text-w-line {
   position: relative;
