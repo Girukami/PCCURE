@@ -34,6 +34,3 @@
 </head>
 
 <body>
-    <link rel="stylesheet" href="../style/main.css">
-</body>
-</html>

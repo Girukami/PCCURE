@@ -1,7 +1,7 @@
 <?php
     $page_title = 'Login';
-    include_once '../class/user.class.php';
-    include_once '../includes/admin/header.php';
+    include '../class/user.class.php';
+    include '../includes/admin/header.php';
 
     if(isset($_POST['login'])){
         if(!empty($_POST['email']) && !empty($_POST['password'])){
@@ -84,5 +84,5 @@
 </section>
 
 <?php
-    include_once '../includes/admin/footer.php';
+    include '../includes/admin/footer.php';
 ?>
