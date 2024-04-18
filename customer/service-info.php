@@ -85,7 +85,7 @@
                 <div class="specified">
                     <span>Specify Request: </span>
     
-                    <textarea name="specreq"cols="30" rows="10"><?php if(isset($service_id)){ echo $service_info['specreq']; } if(isset($_POST['specreq'])){ echo $_POST['specreq']; } ?></textarea>
+                    <input type="text" name ="specreq" class="specreq" value="<?= $customer['specreq'] ?>">
                 </div>
 
             </div>
