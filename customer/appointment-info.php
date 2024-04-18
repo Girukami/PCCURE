@@ -33,20 +33,20 @@
 
 <form method="post" class="order-info">
     <div class="img-cont">
-        <img src="../images/uploads/services/<?= $appointment_info['image'] ?>">
+        <img src="../images/uploads/services/<?php echo $appointment_info['image'] ?>">
     </div>
 
     <div class="right-side">
         <div class="info">
             <div class="row">
                 <div>
-                    <p class="name"><?= $appointment_info['name'] ?></p>
+                    <p class="name"><?php echo $appointment_info['name'] ?></p>
                 </div>
 
                 <div>
                     <span>Cost: ₱</span>
 
-                    <p><?= $appointment_info['price'] ?></p>
+                    <p><?php echo $appointment_info['price'] ?></p>
                 </div>
             </div>
 
@@ -54,13 +54,13 @@
                 <div>
                     <span>Appointment ID: </span>
 
-                    <p><?= $appointment_id ?></p>
+                    <p><?php echo $appointment_id ?></p>
                 </div>
 
                 <div>
                     <span>Appointment Status: </span>
 
-                    <p><?= ucwords($appointment_info['status']) ?></p>
+                    <p><?php echo ucwords($appointment_info['status']) ?></p>
                 </div>
             </div>
         </div>
@@ -70,13 +70,13 @@
                 <div>
                     <span>Your Address: </span>
 
-                    <p><?= $appointment_info['address'] ?></p>
+                    <p><?php echo $appointment_info['address'] ?></p>
                 </div>
 
                 <div>
                     <span>Contact number: </span>
 
-                    <p><?= $appointment_info['contact_num'] ?></p>
+                    <p><?php echo $appointment_info['contact_num'] ?></p>
                 </div>
 
                 <div>
@@ -88,7 +88,7 @@
                 <div>
                     <span>Specific Request: </span>
 
-                    <p><?= $appointment_info['specreq'] ?></p>
+                    <p><?php echo $appointment_info['specreq'] ?></p>
                 </div>
             </div>
         </div>
