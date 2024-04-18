@@ -71,7 +71,6 @@ CREATE TABLE `appointment_service` (
   `service_id` int(11) NOT NULL,
   `address` varchar(255) NOT NULL,
   `contact_num` varchar(255) NOT NULL
-  `specreq` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -207,7 +206,6 @@ CREATE TABLE `service` (
   `name` varchar(255) NOT NULL,
   `price` decimal(10,2) NOT NULL,
   `description` varchar(255) NOT NULL,
-  `specreq` varchar(255) NOT NULL,
   `image` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
