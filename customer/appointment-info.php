@@ -84,6 +84,12 @@
 
                     <p>Cash</p>
                 </div>
+
+                <div>
+                    <span>Specific Request: </span>
+
+                    <p><?= $appointment_info['specreq'] ?></p>
+                </div>
             </div>
         </div>
 
