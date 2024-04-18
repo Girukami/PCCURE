@@ -4,6 +4,9 @@
         private $username = 'u563903406_pccure';
         private $password = 'Wecurepc101'; #password = Wecurepc101
         private $database = 'u563903406_pc_repair';
+        // private $username = 'root';
+        // private $password = '';
+        // private $database = 'pc_repair';
 
         protected $connection;
 

@@ -82,8 +82,7 @@
 
                 <div>
                     <span>Specify Request: </span>
-    
-                    <input type="text" name ="specreq" class="specreq" value="<?php echo $customer['specreq'] ?>">
+                    <input type="text" name ="specreq" class="specreq">
                 </div>
 
             </div>
