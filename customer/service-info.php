@@ -82,7 +82,7 @@
                     <input type="text" name="contact_num" class="contact_num" value="<?= $customer['contact_num'] ?>">
                 </div>
 
-                <div class="specified">
+                <div>
                     <span>Specify Request: </span>
     
                     <input type="text" name ="specreq" class="specreq" value="<?= $customer['specreq'] ?>">
