@@ -111,7 +111,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
  </div>
- <p>© Copyright 2024 <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">PCCURE</a></p>
+ <p>© Copyright 2024 <a href="https://www.facebook.com/pccure/default.asp" target="_blank">PCCURE</a></p>
 </footer>
 
 <script>
