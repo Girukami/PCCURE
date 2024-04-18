@@ -21,6 +21,7 @@
         if(!empty($_POST['address']) && !empty($_POST['contact_num'])){
             $address = htmlentities($_POST['address']);
             $contact_num = htmlentities($_POST['contact_num']);
+            $specreq = htmlentities($_POST['specreq']);
 
             $appointment = new Appointment;
             if($appointment_id = $appointment->addAppointmentService($customer['customer_id'], $service_id, $address, $contact_num)){
@@ -80,6 +81,13 @@
                     
                     <input type="text" name="contact_num" class="contact_num" value="<?= $customer['contact_num'] ?>">
                 </div>
+
+                <div class="service_req">
+                    <span>Specify Request: </span>
+    
+                    <textarea name="specreq"cols="30" rows="10"><?php if(isset($service_id)){ echo $service_info['speqreq']; } if(isset($_POST['speqreq'])){ echo $_POST['specreq']; } ?></textarea>
+                </div>
+
             </div>
         </div>
 
