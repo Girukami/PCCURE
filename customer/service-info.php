@@ -82,7 +82,7 @@
                     <input type="text" name="contact_num" class="contact_num" value="<?= $customer['contact_num'] ?>">
                 </div>
 
-                <div class="service_req">
+                <div class="service-req">
                     <span>Specify Request: </span>
     
                     <textarea name="specreq"cols="30" rows="10"><?php if(isset($service_id)){ echo $service_info['speqreq']; } if(isset($_POST['speqreq'])){ echo $_POST['specreq']; } ?></textarea>
