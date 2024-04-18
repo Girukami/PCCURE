@@ -93,7 +93,7 @@
                 <div>
                     <span>Specific Request: </span>
 
-                    <p><?= $appointment_info['speqreq'] ?></p>
+                    <p><?= $appointment_info['specreq'] ?></p>
                 </div>
             </div>
         </div>
