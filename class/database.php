@@ -1,9 +1,9 @@
 <?php
     class Database{
         private $host = 'localhost';
-        private $username = 'root';
-        private $password = ''; #password = Wecurepc101
-        private $database = 'pc_repair';
+        private $username = 'u563903406_pccure';
+        private $password = 'Wecurepc101'; #password = Wecurepc101
+        private $database = 'u563903406_pc_repair';
 
         protected $connection;
 
