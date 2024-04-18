@@ -8,19 +8,23 @@
             $this->db = new Database;
         }
 
-        function login($email, $password){
-            $sql = 'SELECT * FROM customer WHERE email = :email AND password = :password;';
-
+        function login($email, $password) {
+            $sql = 'SELECT * FROM customer WHERE email = :email;';
+        
             $query = $this->db->connect()->prepare($sql);
             $query->bindParam(':email', $email);
-            $query->bindParam(':password', $password);
-
-            if($query->execute()){
+        
+            if ($query->execute()) {
                 $data = $query->fetch();
+        
+                if ($data && password_verify($password, $data['password'])) {
+                    return $data;
+                }
             }
-
-            return $data;
+        
+            return false;
         }
+        
 
         function signup($fname, $mname, $lname, $email, $cnum, $address, $password){
             $sql = 'INSERT INTO customer(first_name, middle_name, last_name, email, contact_num, address, password) 

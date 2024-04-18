@@ -19,7 +19,8 @@
             $user = new User;
 
             if($password === $password2){
-                if($customer->signup($fname, $mname, $lname, $email, $cnum, $address, $password)){
+                $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+                if($customer->signup($fname, $mname, $lname, $email, $cnum, $address, $hashed_password)){
                     header('location: login.php?success_message=Registration Successful. Please login to proceed.');
                 }
                 else{
