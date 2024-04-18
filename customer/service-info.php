@@ -24,7 +24,7 @@
             $specreq = htmlentities($_POST['specreq']);
 
             $appointment = new Appointment;
-            if($appointment_id = $appointment->addAppointmentService($customer['customer_id'], $service_id, $address, $contact_num)){
+            if($appointment_id = $appointment->addAppointmentService($customer['customer_id'], $service_id, $address, $contact_num, $specreq)){
                 header('location: home.php?success_message=Successfully set an appointment.');
             }
 
