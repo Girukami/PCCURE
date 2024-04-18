@@ -18,7 +18,7 @@
     include_once '../includes/customer/navbar.php';
 
     if(isset($_POST['confirm'])){
-        if(!empty($_POST['address']) && !empty($_POST['contact_num'])){
+        if(!empty($_POST['address']) && !empty($_POST['contact_num']) && !empty($_POST['specreq'])){
             $address = htmlentities($_POST['address']);
             $contact_num = htmlentities($_POST['contact_num']);
             $specreq = htmlentities($_POST['specreq']);
