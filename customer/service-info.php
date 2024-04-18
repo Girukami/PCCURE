@@ -40,7 +40,7 @@
     <?php
         if(isset($error_message)){
     ?>
-            <div class="popups error"><p><?= $error_message ?></p><img src="../images/icons/random/close.svg" class="close"></div>
+            <div class="popups error"><p><?php echo $error_message ?></p><img src="../images/icons/random/close.svg" class="close"></div>
             <script src="../script/popups.js"></script>
 
     <?php
@@ -49,43 +49,41 @@
     ?>
 
     <div class="img-cont">
-        <img src="../images/uploads/services/<?= $service_info['image'] ?>">
+        <img src="../images/uploads/services/<?php echo $service_info['image'] ?>">
     </div>
 
     <div class="right-side">
         <div class="info">
             <div>
                 <p class="name">
-                    <?= $service_info['name'] ?>
+                <?php echo $service_info['name'] ?>
                 </p>
             </div>
 
             <div class="description">
                 <div>
                     <span>Price: </span>
-                    <p>₱<?= $service_info['price'] ?></p>
+                    <p>₱<?php echo $service_info['price'] ?></p>
                 </div>
             </div>
 
-            <p class="desc-text"><?= $service_info['description'] ?></p>
+            <p class="desc-text"><?php echo $service_info['description'] ?></p>
 
             <div class="customer-info">
                 <div>
                     <span>Address: </span>
-                    
-                    <input type="text" name="address" value="<?= $customer['address'] ?>">
+                    <input type="text" name="address" value="<?php echo $customer['address'] ?>">
                 </div>
                 
                 <div>
                     <span>Contact number: </span>
-                    
-                    <input type="text" name="contact_num" class="contact_num" value="<?= $customer['contact_num'] ?>">
+                    <input type="text" name="contact_num" class="contact_num" value="<?php echo $customer['contact_num'] ?>">
                 </div>
 
                 <div>
                     <span>Specify Request: </span>
     
-                    <input type="text" name ="specreq" class="specreq" value="<?= $customer['specreq'] ?>">
+                    <input type="text" name ="specreq" class="specreq" value="<?php echo $customer['specreq'] ?>">
                 </div>
 
             </div>
