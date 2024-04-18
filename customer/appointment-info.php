@@ -88,6 +88,7 @@
                 <div>
                     <span>Specific Request: </span>
 
+                    <?php print_r($appointment_info); ?>
                     <p><?php echo $appointment_info['specreq'] ?></p>
                 </div>
             </div>
