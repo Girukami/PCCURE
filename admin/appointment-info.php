@@ -89,6 +89,12 @@
 
                     <p><?= $appointment_info['contact_num'] ?></p>
                 </div>
+
+                <div>
+                    <span>Specific Request: </span>
+
+                    <p><?= $appointment_info['speqreq'] ?></p>
+                </div>
             </div>
         </div>
 
