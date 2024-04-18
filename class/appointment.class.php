@@ -29,12 +29,12 @@
             return false;
         }
 
-        function addAppointmentService($customer_id, $service_id, $address, $contact_num, $specreq){
+        function addAppointmentService($customer_id, $service_id, $address, $contact_num){
             if(!$appointment_id = $this->addAppointment($customer_id)){
                 return false;
             }
 
-            $sql = 'INSERT INTO appointment_service (appointment_id, customer_id, service_id, address, contact_num) VALUES (:appointment_id, :customer_id, :service_id, :address, :contact_num, :specreq);';
+            $sql = 'INSERT INTO appointment_service (appointment_id, customer_id, service_id, address, contact_num) VALUES (:appointment_id, :customer_id, :service_id, :address, :contact_num);';
 
             $query = $this->db->connect()->prepare($sql);
             $query->bindParam(':appointment_id', $appointment_id[0]);
@@ -42,7 +42,6 @@
             $query->bindParam(':service_id', $service_id);
             $query->bindParam(':address', $address);
             $query->bindParam(':contact_num', $contact_num);
-            $query->bindParam(':specreq', $specreq);
 
             if($query->execute()){
                 return $appointment_id;
