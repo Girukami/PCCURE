@@ -35,14 +35,15 @@ CREATE TABLE `admin` (
   `middle_name` varchar(100) DEFAULT NULL,
   `last_name` varchar(100) NOT NULL,
   `location` varchar(100) NOT NULL,
-  `contact_num` varchar(100) NOT NULL
+  `contact_num` varchar(100) NOT NULL,
+  `specreq` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `admin`
 --
 
-INSERT INTO `admin` (`admin_id`, `email`, `password`, `first_name`, `middle_name`, `last_name`, `location`, `contact_num`) VALUES
+INSERT INTO `admin` (`admin_id`, `email`, `password`, `first_name`, `middle_name`, `last_name`, `location`, `contact_num`, `specreq`) VALUES
 (1, 'admin@gmail.com', 'adminnnn', 'Benkhair', 'Z.', 'Pogi', 'Talon-talon Zamboanga City', '09123456789');
 
 -- --------------------------------------------------------
@@ -70,7 +71,8 @@ CREATE TABLE `appointment_service` (
   `customer_id` int(11) NOT NULL,
   `service_id` int(11) NOT NULL,
   `address` varchar(255) NOT NULL,
-  `contact_num` varchar(255) NOT NULL
+  `contact_num` varchar(255) NOT NULL,
+  `specreq` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -87,6 +89,7 @@ CREATE TABLE `customer` (
   `middle_name` varchar(100) DEFAULT NULL,
   `last_name` varchar(100) NOT NULL,
   `contact_num` varchar(100) NOT NULL,
+  `specreq` varchar(250) NOT NULL,
   `address` varchar(100) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
   `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
@@ -96,7 +99,7 @@ CREATE TABLE `customer` (
 -- Dumping data for table `customer`
 --
 
-INSERT INTO `customer` (`customer_id`, `email`, `password`, `first_name`, `middle_name`, `last_name`, `contact_num`, `address`, `created_at`, `updated_at`) VALUES
+INSERT INTO `customer` (`customer_id`, `email`, `password`, `first_name`, `middle_name`, `last_name`, `contact_num`, `address`, `created_at`, `updated_at`, `specreq`) VALUES
 (5, 'customer1@wmsu.edu.ph', 'customerr', 'Benkhair', 'Very Very Super Duper', 'Pogi', '09123456789', 'Talon-talon Logoy Diutay HAHAH diutay', '2024-04-05 07:23:03', '2024-04-06 14:28:15'),
 (6, 'customer2@wmsu.edu.ph', 'customerr', 'Julkipli', 'Graduated', 'CUM Laude', '09123456789', 'Mile Stone', '2024-04-11 04:13:56', '2024-04-11 04:13:56'),
 (7, 'benkhairpogi@gmail.com', '126219120921', 'Benkhair', 'Akmad', 'Najir', '09558903235', 'Talon-talon', '2024-04-11 06:05:35', '2024-04-11 06:05:35');
