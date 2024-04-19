@@ -13,11 +13,11 @@
 
             <a href="customer-list.php" class="<?= $page_title === 'Customer List' ? 'active' : '' ?>">Customer List</a>
 
-            <div class="search">
+            <!-- <div class="search">
                 <input type="text" placeholder="Search...">
 
                 <img src="../images/icons/random/search.svg">
-            </div>
+            </div> -->
         </div>
 
         <div class="account">

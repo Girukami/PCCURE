@@ -11,11 +11,11 @@
 
             <a href="appointment.php" class="<?php if($page_title === 'Appointment List' || $page_title === 'Appointment Info') echo 'active' ?>">Appointment list</a>
 
-            <div class="search">
+            <!-- <div class="search">
                 <input type="text" placeholder="Search...">
 
                 <img src="../images/icons/random/search.svg">
-            </div>
+            </div> -->
         </div>
 
         <div class="account">
