@@ -99,7 +99,7 @@
                 <div>
                     <span>Specific Request: </span>
 
-                    <p><?= $appointment_info['specreq'] ?></p>
+                    <p><?php echo $appointment_info['set_date'] ?></p>
                 </div>
             </div>
         </div>
