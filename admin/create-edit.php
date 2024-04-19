@@ -44,7 +44,7 @@
 
                         move_uploaded_file($tmp_name, $img_upload_path);
 
-                        if($service->saveNewservice($new_image_name, ucwords($name), $price, $description, "")){
+                        if($service->saveNewservice($new_image_name, ucwords($name), $price, $description)){
                             $success_message = 'New service has been successfully created.';
                             header('location: home.php?success_message=' . $success_message);
                         }
