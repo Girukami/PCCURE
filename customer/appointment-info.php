@@ -28,7 +28,7 @@
         header('location: home.php?error_message=' . $error_message);
     }
 
-    $appointment_info = $appointment->getappointmentInfo($customer['customer_id'], $appointment_id);
+    $appointment_info = $appointment->getAppointmentInfo($customer['customer_id'], $appointment_id);
 ?>
 
 <form method="post" class="order-info">
