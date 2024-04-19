@@ -1,8 +1,5 @@
 <?php
 
-    if(!isset($_GET['appointment_id'])){
-        header('location: home.php');
-    }
 
     $page_title = 'appointment List';
     include_once '../includes/admin/header.php';
