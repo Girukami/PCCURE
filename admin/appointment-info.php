@@ -39,13 +39,13 @@
         <div class="info">
             <div class="row">
                 <div>
-                    <p class="name"><?= $appointment_info['name'] ?></p>
+                    <p class="name"><?php echo $appointment_info['name'] ?></p>
                 </div>
 
                 <div>
                     <span>Cost: ₱</span>
 
-                    <p><?= $appointment_info['price'] ?></p>
+                    <p><?php echo $appointment_info['price'] ?></p>
                 </div>
             </div>
 
@@ -53,13 +53,13 @@
                 <div>
                     <span>Appointment ID: </span>
 
-                    <p><?= $appointment_id ?></p>
+                    <p><?php echo $appointment_id ?></p>
                 </div>
 
                 <div>
                     <span>Appointment status: </span>
 
-                    <p><?= ucwords($appointment_info['status']) ?></p>
+                    <p><?php echo ucwords($appointment_info['status']) ?></p>
                 </div>
 
                 <div>
@@ -75,25 +75,25 @@
                 <div>
                     <span>Customer name: </span>
 
-                    <p><?= $appointment_info['last_name'] . ', ' . $appointment_info['first_name'] . ' ' . $appointment_info['last_name'] ?></p>
+                    <p class="name"><?php echo $appointment_info['name'] ?></p>
                 </div>
 
                 <div>
                     <span>Address: </span>
 
-                    <p><?= $appointment_info['address'] ?></p>
+                    <p><?php echo $appointment_info['address'] ?></p>
                 </div>
 
                 <div>
                     <span>Contact number: </span>
 
-                    <p><?= $appointment_info['contact_num'] ?></p>
+                    <p><?php echo $appointment_info['contact_num'] ?></p>
                 </div>
 
                 <div>
                     <span>Specific Request: </span>
 
-                    <p><?= $appointment_info['specreq'] ?></p>
+                    <p><?php echo $appointment_info['specreq'] ?></p>
                 </div>
             </div>
         </div>
