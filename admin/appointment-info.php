@@ -95,6 +95,12 @@
 
                     <p><?php echo $appointment_info['specreq'] ?></p>
                 </div>
+
+                <div>
+                    <span>Schedule: </span>
+
+                    <p><?php echo $appointment_info['set_date'] ?></p>
+                </div>
             </div>
         </div>
 
