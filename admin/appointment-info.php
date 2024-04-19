@@ -91,6 +91,12 @@
                 </div>
 
                 <div>
+                    <span>Preferred Date: </span>
+
+                    <p><?= $appointment_info['set_date'] ?></p>
+                </div>
+
+                <div>
                     <span>Specific Request: </span>
 
                     <p><?= $appointment_info['specreq'] ?></p>
