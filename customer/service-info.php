@@ -82,7 +82,7 @@
                 </div>
 
                 <div>
-                    <span>Specify Request: </span>
+                    <span>Set date of Appointment: </span>
                     <input type="date" name="set_date" class="form-control">
                 </div>
                 
