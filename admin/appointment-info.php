@@ -32,7 +32,7 @@
 
 <form method="post" class="order-info">
     <div class="img-cont">
-        <img src="../images/uploads/services/<?= $appointment_info['image'] ?>">
+        <img src="../images/uploads/services/<?php echo $appointment_info['image'] ?>">
     </div>
 
     <div class="right-side">
