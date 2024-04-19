@@ -137,7 +137,7 @@
 .header nav .mid-content .active {
   border-bottom: 3px solid #029664;
 }
-.header nav .mid-content .search {
+/* .header nav .mid-content .search {
   display: flex;
   height: 40px;
   width: 240px;
@@ -157,7 +157,7 @@
   height: 25px;
   margin: 5px 5px auto auto;
   cursor: pointer;
-}
+} */
 .header nav .account {
   display: flex;
   flex-direction: row;
