@@ -18,13 +18,14 @@
     include_once '../includes/customer/navbar.php';
 
     if(isset($_POST['confirm'])){
-        if(!empty($_POST['address']) && !empty($_POST['contact_num']) && !empty($_POST['specreq'])){
+        if(!empty($_POST['address']) && !empty($_POST['contact_num']) && !empty($_POST['specreq']) && !empty($_POST['set_date'])){
             $address = htmlentities($_POST['address']);
             $contact_num = htmlentities($_POST['contact_num']);
             $specreq = htmlentities($_POST['specreq']);
+            $set_date = htmlentities($_POST['set_date']);
 
             $appointment = new Appointment;
-            if($appointment_id = $appointment->addAppointmentService($customer['customer_id'], $service_id, $address, $contact_num, $specreq)){
+            if($appointment_id = $appointment->addAppointmentService($customer['customer_id'], $service_id, $address, $contact_num, $specreq, $set_date)){
                 header('location: home.php?success_message=Successfully set an appointment.');
             }
 
@@ -80,6 +81,11 @@
                     <input type="text" name="contact_num" class="contact_num" value="<?php echo $customer['contact_num'] ?>">
                 </div>
 
+                <div>
+                    <span>Specify Request: </span>
+                    <input type="date" name="set_date" class="form-control">
+                </div>
+                
                 <div>
                     <span>Specify Request: </span>
                     <input type="text" name ="specreq" class="specreq">

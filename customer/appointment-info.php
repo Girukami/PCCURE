@@ -87,7 +87,7 @@
 
                 <div>
                     <span>Set appointment Date: </span>
-                    <input type="date" name="set_date" class="form-control" />
+                    
                     <p><?php echo $appointment_info['set_date'] ?></p>
                 </div>
 
