@@ -29,12 +29,12 @@
             return false;
         }
 
-        function addAppointmentService($customer_id, $service_id, $address, $contact_num, $specreq){
+        function addAppointmentService($customer_id, $service_id, $address, $contact_num, $specreq, $set_date){
             if(!$appointment_id = $this->addAppointment($customer_id)){
                 return false;
             }
 
-            $sql = 'INSERT INTO appointment_service (appointment_id, customer_id, service_id, address, contact_num, specreq) VALUES (:appointment_id, :customer_id, :service_id, :address, :contact_num, :specreq);';
+            $sql = 'INSERT INTO appointment_service (appointment_id, customer_id, service_id, address, contact_num, specreq, set_date) VALUES (:appointment_id, :customer_id, :service_id, :address, :contact_num, :specreq, :set_date);';
 
             $query = $this->db->connect()->prepare($sql);
             $query->bindParam(':appointment_id', $appointment_id[0]);
@@ -43,6 +43,7 @@
             $query->bindParam(':address', $address);
             $query->bindParam(':contact_num', $contact_num);
             $query->bindParam(':specreq', $specreq);
+            $query->bindParam(':set_date', $set_date);
 
             if($query->execute()){
                 return $appointment_id;
@@ -164,7 +165,7 @@
 
         function getAppointmentInfo($customer_id, $appointment_id){
             if($customer_id !== 'admin'){
-                $sql = 'SELECT service.image, service.name, service.price, appointment.status, appointment_service.address, appointment_service.specreq, appointment_service.contact_num 
+                $sql = 'SELECT service.image, service.name, service.price, appointment.status, appointment_service.address, appointment_service.specreq, appointment_service.set_date, appointment_service.contact_num 
                         FROM service, appointment_service, appointment WHERE appointment.customer_id = :customer_id AND appointment.appointment_id = :appointment_id AND 
                         service.service_id = appointment_service.service_id AND appointment_service.appointment_id = appointment.appointment_id;';
     
@@ -172,7 +173,7 @@
                 $query->bindParam(':customer_id', $customer_id);
             }
             else{
-                $sql = 'SELECT service.image, service.name, service.price, appointment.status, appointment_service.address, appointment_service.specreq, appointment_service.contact_num, customer.first_name, 
+                $sql = 'SELECT service.image, service.name, service.price, appointment.status, appointment_service.address, appointment_service.specreq, appointment_service.set_date,, appointment_service.contact_num, customer.first_name, 
                         customer.middle_name, customer.last_name FROM service, appointment_service, appointment, customer, 
                         payment WHERE appointment.appointment_id = :appointment_id AND service.service_id = appointment_service.service_id AND appointment_service.appointment_id = appointment.appointment_id 
                         AND appointment.customer_id = customer.customer_id;';

@@ -86,6 +86,13 @@
                 </div>
 
                 <div>
+                    <span>Set appointment Date: </span>
+                    <input type="date" name="set_date" class="form-control" />
+                    <p><?php echo $appointment_info['set_date'] ?></p>
+                </div>
+
+
+                <div>
                     <span>Specific Request: </span>
 
                     <p><?php echo $appointment_info['specreq'] ?></p>
