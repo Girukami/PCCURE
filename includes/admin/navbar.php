@@ -3,7 +3,7 @@
         <a href="home.php" class="logo">
             <img src="../images/icons/logo/12.png">
 
-            <p>PC GURU</p>
+            <p>PC CURE</p>
         </a>
 
         <div class="mid-content">
