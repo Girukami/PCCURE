@@ -84,7 +84,7 @@
                     <p><?php echo $appointment_info['specreq'] ?></p>
                 </div>
                 
-                <div>
+                <div class="row">
                 <span>Schedule: </span>
 
                     <?php
