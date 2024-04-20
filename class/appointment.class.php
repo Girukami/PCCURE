@@ -165,7 +165,8 @@
 
         function getAppointmentInfo($customer_id, $appointment_id){
             if($customer_id !== 'admin'){
-                $sql = 'SELECT service.image, service.name, service.price, appointment.status, appointment_service.address, appointment_service.specreq, appointment_service.set_date, appointment_service.contact_num 
+                $sql = 'SELECT service.image, service.name, service.price, 
+                        DATE_FORMAT(STR_TO_SETDATE(appointment_service.set_date, "%Y-%m-%d %H:%i:%s"),"%h:%i %p | %a | %M %d, %Y") AS setdate, appointment.status, appointment_service.address, appointment_service.specreq, appointment_service.set_date, appointment_service.contact_num 
                         FROM service, appointment_service, appointment WHERE appointment.customer_id = :customer_id AND appointment.appointment_id = :appointment_id AND 
                         service.service_id = appointment_service.service_id AND appointment_service.appointment_id = appointment.appointment_id;';
     
@@ -173,7 +174,8 @@
                 $query->bindParam(':customer_id', $customer_id);
             }
             else{
-                $sql = 'SELECT service.image, service.name, service.price, appointment.status, appointment_service.address, appointment_service.specreq, appointment_service.set_date, appointment_service.contact_num, customer.first_name, 
+                $sql = 'SELECT service.image, service.name, service.price, 
+                        DATE_FORMAT(STR_TO_SETDATE(appointment_service.set_date, "%Y-%m-%d %H:%i:%s"),"%h:%i %p | %a | %M %d, %Y") AS setdate, appointment.status, appointment_service.address, appointment_service.specreq, appointment_service.set_date, appointment_service.contact_num, customer.first_name, 
                         customer.middle_name, customer.last_name FROM service, appointment_service, appointment, customer, 
                         payment WHERE appointment.appointment_id = :appointment_id AND service.service_id = appointment_service.service_id AND appointment_service.appointment_id = appointment.appointment_id 
                         AND appointment.customer_id = customer.customer_id;';
