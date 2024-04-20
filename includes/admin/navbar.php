@@ -23,7 +23,7 @@
         <div class="account">
             <img src="../images/icons/random/profile.svg">
 
-            <p class="name">
+            <p class="name" style="color: black;">
                 <?= $admin['first_name'] ?>
             </p>
 
