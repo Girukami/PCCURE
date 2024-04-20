@@ -24,7 +24,7 @@
             <img src="../images/icons/random/profile.svg">
 
             <p class="name">
-                <?= $admin['last_name'] . ', ' . $admin['first_name'] . ' ' . $admin['middle_name'] ?>
+                <?= $admin['first_name'] ?>
             </p>
 
             <img src="../images/icons/random/arrowdown.svg">
