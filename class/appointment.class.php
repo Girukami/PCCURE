@@ -173,7 +173,7 @@
                 $query->bindParam(':customer_id', $customer_id);
             }
             else{
-                $sql = 'SELECT service.image, service.name, service.price, appointment.status, appointment_service.address, appointment_service.specreq, appointment_service.set_date,, appointment_service.contact_num, customer.first_name, 
+                $sql = 'SELECT service.image, service.name, service.price, appointment.status, appointment_service.address, appointment_service.specreq, appointment_service.set_date, appointment_service.contact_num, customer.first_name, 
                         customer.middle_name, customer.last_name FROM service, appointment_service, appointment, customer, 
                         payment WHERE appointment.appointment_id = :appointment_id AND service.service_id = appointment_service.service_id AND appointment_service.appointment_id = appointment.appointment_id 
                         AND appointment.customer_id = customer.customer_id;';
