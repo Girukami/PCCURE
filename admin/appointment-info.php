@@ -87,7 +87,7 @@
                 <div>
                     <span>Schedule: </span>
 
-                    <p><?php echo $appointment_info['set_date("F j, Y", strtotime($set_date)'] ?></p>
+                    <p><?php echo $appointment_info['setdate'] ?></p>
                 </div>
             </div>
         </div>
