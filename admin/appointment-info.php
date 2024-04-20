@@ -4,7 +4,7 @@
     }
 
     $appointment_id = $_GET['appointment_id'];
-    $page_title = 'Appointment Info';
+    $page_title = 'appointment Info';
     include_once '../includes/admin/header.php';
     include_once '../includes/admin/navbar.php';
     include_once '../class/appointment.class.php';
