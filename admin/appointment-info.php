@@ -5,7 +5,6 @@
 
     $appointment_id = $_GET['appointment_id'];
     $page_title = 'appointment Info';
-    $formatted_date = date("F j, Y", strtotime($appointment_info['set_date']));
     include_once '../includes/admin/header.php';
     include_once '../includes/admin/navbar.php';
     include_once '../class/appointment.class.php';
@@ -88,7 +87,7 @@
                 <div>
                     <span>Schedule: </span>
 
-                    <p><?php echo $appointment_info['formatted_date'] ?></p>
+                    <p><?php echo $appointment_info['set_date'] ?></p>
                 </div>
             </div>
         </div>
