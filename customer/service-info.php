@@ -83,7 +83,7 @@
 
                 <div>
                     <span>Set date of Appointment: </span>
-                    <input type="date" name="set_date" class="form-control">
+                    <input type="date" name="set_date" min="<?php echo date('Y-m-d'); ?>" required>
                 </div>
                 
                 <div>
