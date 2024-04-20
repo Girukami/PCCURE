@@ -61,23 +61,11 @@
 
                     <p><?php echo ucwords($appointment_info['status']) ?></p>
                 </div>
-
-                <div>
-                    <span>Payment Method: </span>
-
-                    <p>Cash</p>
-                </div>
             </div>
         </div>
 
         <div class="payment">
             <div class="content">
-                <div>
-                    <span>Customer name: </span>
-
-                    <p class="name"><?php echo $appointment_info['name'] ?></p>
-                </div>
-
                 <div>
                     <span>Address: </span>
 
