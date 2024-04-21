@@ -11,6 +11,10 @@
 
     $appointment = new Appointment;
 
+    if(!$appointment->getAppointmentInfo($customer['customer_id'], $appointment_id)){
+        $error_message = 'An error has been occurred, please try again.';
+    }
+
     if(isset($_POST['mark_approved'])){
         if($appointment->updateAppointmentStatus($appointment_id, 'approved')){
             header('location: appointment.php?success_message=Appointment approved.');
