@@ -69,7 +69,7 @@
             <div class="content">
                 <div class="account">
                     <span>Your Name: </span>
-                    <p class="name" style="color: black;">
+                    <p class="name">
                         <?= $customer['last_name'] . ', ' . $customer['first_name'] . ' ' . $customer['middle_name'] ?>
                     </p>
 
