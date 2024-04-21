@@ -69,10 +69,10 @@
                 <div class="account">
                     <span>Client's Name: </span>
                     <p>
-                        <?php echo $appointment_info['last_name'] . ', ' . $customer['first_name'] . ' ' . $customer['middle_name'] ?>
+                        <?php echo $appointment_info['last_name'] . ', ' . $appointment_info['first_name'] . ' ' . $appointment_info['middle_name'] ?>
                     </p>
-
                 </div>
+                
                 <div>
                     <span>Address: </span>
 
