@@ -69,7 +69,7 @@
                 <div class="account">
                     <span>Client's Name: </span>
                     <p>
-                        <?php echo $appointment_info['last_name'] ?>
+                        <?php echo $appointment_info['last_name'] . ', ' . $customer['first_name'] . ' ' . $customer['middle_name'] ?>
                     </p>
 
                 </div>
