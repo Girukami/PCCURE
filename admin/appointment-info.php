@@ -66,6 +66,13 @@
 
         <div class="payment">
             <div class="content">
+                <div class="account">
+                    <span>Client's Name: </span>
+                    <p class="name">
+                        <?= $customer['last_name'] . ', ' . $customer['first_name'] . ' ' . $customer['middle_name'] ?>
+                    </p>
+
+                </div>
                 <div>
                     <span>Address: </span>
 
