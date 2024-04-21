@@ -74,7 +74,7 @@
                 <div class="account">
                     <span>Client's Name: </span>
                     <p>
-                        <?php echo $customer['last_name'] ?>
+                        <?php echo $appointment_info['last_name'] ?>
                     </p>
 
                 </div>
