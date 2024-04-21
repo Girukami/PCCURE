@@ -74,7 +74,7 @@
                 <div class="account">
                     <span>Client's Name: </span>
                     <p class="name">
-                        <?= $customer['name'] ?>
+                        <?= $customer['last_name'] ?>
                     </p>
 
                 </div>
