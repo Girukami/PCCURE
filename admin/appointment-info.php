@@ -10,7 +10,7 @@
     include_once '../class/appointment.class.php';
 
     $appointment = new Appointment;
-    
+
     if(!$appointment->getAppointmentInfo($customer['customer_id'], $appointment_id)){
         $error_message = 'An error has been occurred, please try again.';
     }
@@ -73,7 +73,7 @@
                 <div class="account">
                     <span>Client's Name: </span>
                     <p class="name">
-                        <?= $customer['last_name'] . ', ' . $customer['first_name'] . ' ' . $customer['middle_name'] ?>
+                        <?= $customer['name'] ?>
                     </p>
 
                 </div>
