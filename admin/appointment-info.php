@@ -28,6 +28,7 @@
 
     $appointment_info = $appointment->getAppointmentInfo($_SESSION['user_type'], $appointment_id);
     $status = $appointment_info['status'];
+    $appointment_info = $appointment->getAppointmentInfo($customer['customer_id'], $appointment_id);
 ?>
 
 <form method="post" class="order-info">
