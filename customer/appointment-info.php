@@ -11,6 +11,12 @@
 
     $appointment = new Appointment;
 
+    if(isset($_POST['delete'])){
+        if($service->deleteservice($appointment_id)){
+            $success_message = 'service cancelled successfully.';
+        }
+    }
+
     if(!$appointment->getAppointmentInfo($customer['customer_id'], $appointment_id)){
         $error_message = 'An error has been occurred, please try again.';
     }
@@ -117,18 +123,24 @@
             if($appointment_info['status'] === 'delivered'){
                 echo '<input type="submit" class="action-button" value="Mark as Claimed" name="mark_claimed">';
             }
-            
-            if($_SESSION['user_type'] === 'admin'){            
-                if($status === 'pending'){
-                    echo '<input type="submit" class="action-button" value="Mark as Approved" name="mark_approved">';
-                }
-                else if($status === 'approved'){
-                    echo '<input type="submit" class="action-button" value="Mark as Done" name="mark_done">';
-                }
-            }
         ?>
         
     </div>
+
+    <div class="button">
+        <button type="button" class="action-btn">Cancel Appointment</button>
+    </div>
+
+    <div class="modal">
+        <p>Confirm Cancellation?</p>
+
+        <div class="buttons">
+            <button type="button">Cancel</button>
+            <input type="submit" name="confirm" value="Confirm">
+        </div>
+    </div>
+
+    <span class="overlay"></span>
 </form>
 
 <?php
