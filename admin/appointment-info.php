@@ -30,6 +30,7 @@
         header('location: home.php?error_message=An error has been occurred, please try again.');
     }
 
+    $appointment_info = $appointment->getAppointmentInfo($customer['customer_id'], $appointment_id);
     $appointment_info = $appointment->getAppointmentInfo($_SESSION['user_type'], $appointment_id);
     $status = $appointment_info['status'];
 ?>
