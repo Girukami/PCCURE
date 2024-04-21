@@ -88,7 +88,12 @@
                 <div>
                     <span>Set appointment Date: </span>
                     
-                    <p><?php echo $appointment_info['set_date'] ?></p>
+                    <?php
+                    $set_date = $appointment_info['set_date'];
+                    $formatted_date = date("F j, Y", strtotime($set_date));
+                    ?>
+
+                    <p><?php echo $formatted_date; ?></p>
                 </div>
 
 
