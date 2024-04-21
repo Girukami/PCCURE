@@ -127,7 +127,7 @@
         
     </div>
 
-    <div class="button">
+    <!-- <div class="button">
         <button type="button" class="action-btn">Cancel Appointment</button>
     </div>
 
@@ -140,7 +140,7 @@
         </div>
     </div>
 
-    <span class="overlay"></span>
+    <span class="overlay"></span> -->
 </form>
 
 <?php
