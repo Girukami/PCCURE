@@ -117,7 +117,17 @@
             if($appointment_info['status'] === 'delivered'){
                 echo '<input type="submit" class="action-button" value="Mark as Claimed" name="mark_claimed">';
             }
+            
+            if($_SESSION['user_type'] === 'admin'){            
+                if($status === 'pending'){
+                    echo '<input type="submit" class="action-button" value="Mark as Approved" name="mark_approved">';
+                }
+                else if($status === 'approved'){
+                    echo '<input type="submit" class="action-button" value="Mark as Done" name="mark_done">';
+                }
+            }
         ?>
+        
     </div>
 </form>
 
