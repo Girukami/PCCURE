@@ -31,7 +31,7 @@
         </div>
 
         <div class="action">
-            <a href="#">Profile</a>
+            <!-- <a href="#">Profile</a> -->
             <a href="logout.php">Logout</a>
         </div>
 
