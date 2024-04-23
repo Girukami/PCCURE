@@ -1031,7 +1031,7 @@
   align-items: center;
   text-decoration: none;
   color: #232323;
-  background: #757575;
+  background: #ffffff;
   margin-bottom: 8px;
   color: #fafafa;
   border-radius: 10px;
@@ -1040,7 +1040,7 @@
   gap: 20px;
 }
 .order .orders a:hover {
-  background: #7f7f7f;
+  background: #ffffff;
 }
 .order .orders a img {
   border-radius: 5px;
