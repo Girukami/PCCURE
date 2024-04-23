@@ -122,7 +122,7 @@
   gap: 30px;
 }
 .header nav .mid-content a {
-  color: #029664;
+  color: #303B8C;
   font-weight: 500;
   display: flex;
   flex-direction: row;
@@ -132,16 +132,16 @@
   padding: 0 5px;
 }
 .header nav .mid-content a:hover {
-  border-bottom: 3px solid #029664;
+  border-bottom: 3px solid #303B8C;
 }
 .header nav .mid-content .active {
-  border-bottom: 3px solid #029664;
+  border-bottom: 3px solid #303B8C;
 }
 /* .header nav .mid-content .search {
   display: flex;
   height: 40px;
   width: 240px;
-  border: 1px solid #029664;
+  border: 1px solid #303B8C;
   border-radius: 5px;
 }
 .header nav .mid-content .search input {
@@ -208,7 +208,7 @@
   color: #232323;
 }
 .header nav .action a:hover {
-  color: #029664;
+  color: #303B8C;
   background: #f0f0f0;
 }
 .header nav .nav-overlay {
@@ -295,7 +295,7 @@
   height: 56px;
   border-radius: 8px;
   padding: 10px 12px;
-  border: 1px solid #029664;
+  border: 1px solid #303B8C;
   font-size: 16px;
   background: #fafafa;
 }
@@ -337,7 +337,7 @@
   cursor: pointer;
 }
 .login .login-cont .actions .buttons input {
-  background: #029664;
+  background: #303B8C;
 }
 .login .login-cont .actions .buttons input:hover {
   background: #02aa71;
@@ -355,7 +355,7 @@
   margin-left: auto;
   width: -moz-fit-content;
   width: fit-content;
-  color: #029664;
+  color: #303B8C;
 }
 .login .login-cont .actions .forgot:hover {
   text-decoration: underline;
@@ -383,7 +383,7 @@
   flex: 2 0 12rem;
 }
 .login.signup .login-cont .actions .signup-btn {
-  background: #029664;
+  background: #303B8C;
 }
 .login.signup .login-cont .actions .signup-btn:hover {
   background: #02aa71;
@@ -683,7 +683,7 @@
 .checkout .right-side .buttons input,
 .order-info .right-side .buttons a,
 .order-info .right-side .buttons input {
-  background: #029664;
+  background: #303B8C;
 }
 .product-info .right-side .buttons a:hover,
 .product-info .right-side .buttons input:hover,
@@ -714,7 +714,7 @@
   color: #fff;
   cursor: pointer;
   transition: 0.1s;
-  background: #029664;
+  background: #303B8C;
 }
 .product-info .right-side .action-button:hover,
 .checkout .right-side .action-button:hover,
@@ -787,7 +787,7 @@
 .product-info .modal .buttons input,
 .checkout .modal .buttons input,
 .order-info .modal .buttons input {
-  background: #029664;
+  background: #303B8C;
 }
 .product-info .modal .buttons input:hover,
 .checkout .modal .buttons input:hover,
@@ -847,7 +847,7 @@
 }
 .edit .upload button:hover,
 .create .upload button:hover {
-  background: #029664;
+  background: #303B8C;
   color: #fafafa;
 }
 .edit .upload button input,
@@ -868,7 +868,7 @@
   width: 50%;
   border-radius: 8px;
   padding: 10px 12px;
-  border: 1px solid #029664;
+  border: 1px solid #303B8C;
   font-size: 16px;
   background: #fafafa;
   font-size: 18px;
@@ -888,7 +888,7 @@
   cursor: pointer;
   transition: 0.1s;
   width: 100%;
-  background: #029664;
+  background: #303B8C;
 }
 .edit .right-side button:hover,
 .create .right-side button:hover {
@@ -952,7 +952,7 @@
 }
 .edit .modal .buttons input,
 .create .modal .buttons input {
-  background: #029664;
+  background: #303B8C;
 }
 .edit .modal .buttons input:hover,
 .create .modal .buttons input:hover {
@@ -973,7 +973,7 @@
 }
 
 .create .img-cont {
-  border: 1px solid #029664;
+  border: 1px solid #303B8C;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -1255,7 +1255,7 @@
 .checkout .right-side .buttons input,
 .order-info .right-side .buttons a,
 .order-info .right-side .buttons input {
-  background: #029664;
+  background: #303B8C;
 }
 .product-info .right-side .buttons a:hover,
 .product-info .right-side .buttons input:hover,
@@ -1286,7 +1286,7 @@
   color: #fff;
   cursor: pointer;
   transition: 0.1s;
-  background: #029664;
+  background: #303B8C;
 }
 .product-info .right-side .action-button:hover,
 .checkout .right-side .action-button:hover,
@@ -1359,7 +1359,7 @@
 .product-info .modal .buttons input,
 .checkout .modal .buttons input,
 .order-info .modal .buttons input {
-  background: #029664;
+  background: #303B8C;
 }
 .product-info .modal .buttons input:hover,
 .checkout .modal .buttons input:hover,
@@ -1419,7 +1419,7 @@
 }
 .edit .upload button:hover,
 .create .upload button:hover {
-  background: #029664;
+  background: #303B8C;
   color: #fafafa;
 }
 .edit .upload button input,
@@ -1440,7 +1440,7 @@
   width: 50%;
   border-radius: 8px;
   padding: 10px 12px;
-  border: 1px solid #029664;
+  border: 1px solid #303B8C;
   font-size: 16px;
   background: #fafafa;
   font-size: 18px;
@@ -1460,7 +1460,7 @@
   cursor: pointer;
   transition: 0.1s;
   width: 100%;
-  background: #029664;
+  background: #303B8C;
 }
 .edit .right-side button:hover,
 .create .right-side button:hover {
@@ -1524,7 +1524,7 @@
 }
 .edit .modal .buttons input,
 .create .modal .buttons input {
-  background: #029664;
+  background: #303B8C;
 }
 .edit .modal .buttons input:hover,
 .create .modal .buttons input:hover {
@@ -1545,7 +1545,7 @@
 }
 
 .create .img-cont {
-  border: 1px solid #029664;
+  border: 1px solid #303B8C;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -1583,7 +1583,7 @@
 .checkout .right-side .info,
 .order-info .right-side .info {
   padding-bottom: 20px;
-  border-bottom: 1px solid #029664;
+  border-bottom: 1px solid #303B8C;
 }
 .checkout .right-side .info .row,
 .order-info .right-side .info .row {
@@ -1874,7 +1874,7 @@
 .checkout .right-side .buttons input,
 .order-info .right-side .buttons a,
 .order-info .right-side .buttons input {
-  background: #029664;
+  background: #303B8C;
 }
 .product-info .right-side .buttons a:hover,
 .product-info .right-side .buttons input:hover,
@@ -1905,7 +1905,7 @@
   color: #fff;
   cursor: pointer;
   transition: 0.1s;
-  background: #029664;
+  background: #303B8C;
 }
 .product-info .right-side .action-button:hover,
 .checkout .right-side .action-button:hover,
@@ -1978,7 +1978,7 @@
 .product-info .modal .buttons input,
 .checkout .modal .buttons input,
 .order-info .modal .buttons input {
-  background: #029664;
+  background: #303B8C;
 }
 .product-info .modal .buttons input:hover,
 .checkout .modal .buttons input:hover,
@@ -2038,7 +2038,7 @@
 }
 .edit .upload button:hover,
 .create .upload button:hover {
-  background: #029664;
+  background: #303B8C;
   color: #fafafa;
 }
 .edit .upload button input,
@@ -2059,7 +2059,7 @@
   width: 50%;
   border-radius: 8px;
   padding: 10px 12px;
-  border: 1px solid #029664;
+  border: 1px solid #303B8C;
   font-size: 16px;
   background: #fafafa;
   font-size: 18px;
@@ -2079,7 +2079,7 @@
   cursor: pointer;
   transition: 0.1s;
   width: 100%;
-  background: #029664;
+  background: #303B8C;
 }
 .edit .right-side button:hover,
 .create .right-side button:hover {
@@ -2143,7 +2143,7 @@
 }
 .edit .modal .buttons input,
 .create .modal .buttons input {
-  background: #029664;
+  background: #303B8C;
 }
 .edit .modal .buttons input:hover,
 .create .modal .buttons input:hover {
@@ -2164,7 +2164,7 @@
 }
 
 .create .img-cont {
-  border: 1px solid #029664;
+  border: 1px solid #303B8C;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -2202,7 +2202,7 @@
 .checkout .right-side .info,
 .order-info .right-side .info {
   padding-bottom: 20px;
-  border-bottom: 1px solid #029664;
+  border-bottom: 1px solid #303B8C;
 }
 .checkout .right-side .info .row,
 .order-info .right-side .info .row {
