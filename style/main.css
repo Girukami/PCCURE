@@ -421,7 +421,7 @@
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
 }
 .home .products:hover {
-  box-shadow: 0 1px 5px 2px rgba(2, 150, 100, 0.8);
+  box-shadow: 0 1px 5px 2px rgba(6, 155, 188, 0.8);
   background: #e1e1e1;
 }
 .home .products img {
