@@ -63,16 +63,18 @@
                 $query = $db->prepare($sql);
         
                 $query->bindParam(':service_id', $service_id);
+                $result = $query->execute();
         
-                if ($query->execute()) {
+                if($result){
                     var_dump("SUCCESS");
                     return true;
                 } else {
-                    var_dump("FAILED");
+                    var_dump("FAILED 1");
                     error_log("Error deleting service: " . implode(' - ', $query->errorInfo()));
                     return false;
                 }
             } catch (PDOException $e) {
+                var_dump("FAILED 2");
                 error_log("PDOException in deleteservice(): " . $e->getMessage());
                 return false;
             }
