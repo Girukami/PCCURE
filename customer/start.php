@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://github.com/Girukami/PCCURE/blob/main/style/main.css">
+<link rel="stylesheet" href="../style/main.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
@@ -141,7 +141,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                 <div class="container">
                     <h2>Benkhair Najir</h2>
                     <p class="title">Computer Servicing Technician</p>
-                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>Life isn't about waiting for the storm to pass, but about learning to dance in the thunder.</p>
                     <p>benkhairnajir2001@gmail.com</p>
                 </div>
             </div>
