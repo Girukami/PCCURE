@@ -18,8 +18,8 @@
     include_once '../includes/admin/navbar.php';
 
     if(isset($_POST["delete"])){
-        var_dump($service_id);
         $success = $service->deleteservice($service_id);
+        var_dump($success);
         if($success){
             $success_message = 'service successfully deleted.';
         }
