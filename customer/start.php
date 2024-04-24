@@ -170,13 +170,13 @@ body {
         <!-- Team member 2 -->
         <div class="column">
             <div class="card">
-                <img src="../images/Boss1.jpg" alt="RShariff" style="width:100%">
+                <img src="../images/Jongks.jpg" alt="RShariff" style="width:100%">
                 <div class="container">
                     <h2>R-Shariff A. Asula</h2>
                     <p class="title">CEO & Founder</p>
                     <p>"Nanakorobi yaoki"</p>
                     <p>Stumble 7 times, then stand up 8</p>
-                    <p>jane@example.com</p>
+                    <p>customerservice@pccure.site</p>
                 </div>
             </div>
         </div>
