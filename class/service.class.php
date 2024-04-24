@@ -55,17 +55,25 @@
         }
 
         function deleteservice($service_id){
-            $sql = 'DELETE FROM service WHERE service_id = :service_id;';
-
-            $query = $this->db->connect()->prepare($sql);
-            $query->bindParam(':service_id', $service_id);
-
-            if($query->execute()){
-                return true;
+            try {
+                $db = $this->db->connect();
+        
+                $sql = 'DELETE FROM service WHERE service_id = :service_id;';
+                $query = $db->prepare($sql);
+        
+                $query->bindParam(':service_id', $service_id);
+        
+                if ($query->execute()) {
+                    return true;
+                } else {
+                    error_log("Error deleting service: " . implode(' - ', $query->errorInfo()));
+                    return false;
+                }
+            } catch (PDOException $e) {
+                error_log("PDOException in deleteservice(): " . $e->getMessage());
+                return false;
             }
-
-            return false;
-        }
+        }        
 
         function getAll(){
             $sql = 'SELECT * FROM service ORDER BY name DESC;';
