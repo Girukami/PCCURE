@@ -57,18 +57,24 @@
         function deleteservice($service_id){
             try {
                 $db = $this->db->connect();
+                var_dump("IM HERE 1");
                 if (!$db) {
                     throw new PDOException("Failed to connect to the database.");
                 }
+                var_dump("IM HERE 2");
         
                 $sql = 'DELETE FROM service WHERE service_id = :service_id;';
                 $query = $db->prepare($sql);
+                var_dump("IM HERE 3");
                 if (!$query) {
                     throw new PDOException("Failed to prepare the SQL statement.");
                 }
+                var_dump("IM HERE 4");
         
                 $query->bindParam(':service_id', $service_id);
+                var_dump("IM HERE 5");
                 $result = $query->execute();
+                var_dump("IM HERE 6");
                 if ($result) {
                     return true;
                 } else {
