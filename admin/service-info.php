@@ -17,7 +17,7 @@
     include_once '../includes/admin/header.php';
     include_once '../includes/admin/navbar.php';
 
-    if(isset($_POST['delete'])){
+    if(isset($_POST["delete"])){
         if($service->deleteservice($service_id)){
             $success_message = 'service successfully deleted.';
         }
@@ -56,9 +56,8 @@
         <div class="buttons">
             <a href="create-edit.php?service_id=<?= $service_info['service_id'] ?>">Edit Service Info</a>
 
-            <button type="submit" name="delete" class="action-btn">Delete Service</button>
-            <a href="home.php">Back</a>
-        </div>
+            <button type="button" class="action-btn">Delete Service</button>
+            <a href = "home.php"> Back </a>
     </div>
 
     <div class="modal">
@@ -66,7 +65,11 @@
 
         <div class="buttons">
             <button type="button">Cancel</button>
+            <input type="submit" name="delete" value="Delete service">
         </div>
+
+        
+
     </div>
 
     <span class="overlay"></span>
