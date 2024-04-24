@@ -8,8 +8,6 @@
     $service = new Service;
     $service_id = $_GET['service_id'];
 
-    var_dump($service_id);
-
     if(!$service->getOne($service_id)){
         header('location: home.php?error_message=An error has been occured, please try again.');
     }
@@ -20,6 +18,7 @@
     include_once '../includes/admin/navbar.php';
 
     if(isset($_POST["delete"])){
+        var_dump($service_id);
         if($service->deleteservice($service_id)){
             $success_message = 'service successfully deleted.';
         }
