@@ -56,8 +56,9 @@
         <div class="buttons">
             <a href="create-edit.php?service_id=<?= $service_info['service_id'] ?>">Edit Service Info</a>
 
-            <button type="button" class="action-btn">Delete Service</button>
-            <a href = "home.php"> Back </a>
+            <button type="submit" name="delete" class="action-btn">Delete Service</button>
+            <a href="home.php">Back</a>
+        </div>
     </div>
 
     <div class="modal">
@@ -65,13 +66,7 @@
 
         <div class="buttons">
             <button type="button">Cancel</button>
-            <form method="post">
-                <input type="submit" name="delete" value="Delete service">
-            </form>
         </div>
-
-        
-
     </div>
 
     <span class="overlay"></span>
