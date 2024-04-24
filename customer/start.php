@@ -206,6 +206,19 @@ body {
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
+    <script>
+      document.getElementById('facebookIcon').onclick = function() {
+        window.location.href = 'https://www.facebook.com/'; // Change the URL to your Facebook page
+      };
+      
+      document.getElementById('instagramIcon').onclick = function() {
+        window.location.href = 'https://www.instagram.com/'; // Change the URL to your Instagram page
+      };
+
+      document.getElementById('twitterIcon').onclick = function() {
+        window.location.href = 'https://twitter.com/'; // Change the URL to your Twitter page
+      };
+    </script>
     <p>customerservice@pccure.site</p>
  </div>
  <p>© Copyright 2024 <a>PCCURE</a></p>
