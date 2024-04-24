@@ -57,16 +57,9 @@
         function deleteservice($service_id){
             try {
                 $db = $this->db->connect();
-
-
-                // if (isset($_GET["service_id"])) {
-                //     $id = $_GET["service_id"];
-                
-                //     $sql = "DELETE FROM service WHERE service_id = $id";
-                //     $result = $db->query($sql);
-                // }
         
                 $sql = 'DELETE FROM service WHERE service_id = :service_id;';
+                var_dump($sql);
                 $query = $db->prepare($sql);
         
                 $query->bindParam(':service_id', $service_id);
