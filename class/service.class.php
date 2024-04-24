@@ -64,10 +64,11 @@
         
                 $query->bindParam(':service_id', $service_id);
         
-                var_dump($query);
                 if ($query->execute()) {
+                    var_dump("SUCCESS");
                     return true;
                 } else {
+                    var_dump("FAILED");
                     error_log("Error deleting service: " . implode(' - ', $query->errorInfo()));
                     return false;
                 }
