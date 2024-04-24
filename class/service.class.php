@@ -71,6 +71,7 @@
         
                 $query->bindParam(':service_id', $service_id);
         
+                var_dump($query);
                 if ($query->execute()) {
                     return true;
                 } else {
