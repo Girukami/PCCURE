@@ -19,11 +19,57 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   }
 /* Updated Styles */
 .header {
-    background-color: #00008b; /* Dark blue color */
+    background-color: #ffffff; 
     color: #fff; /* White text color */
 }
 .w3-bar {
     background-color: #ffffff; /* Black color for navbar */
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 100px;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  flex: 1;
+  max-width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+.title {
+  color: grey;
 }
 </style>
 </head>
