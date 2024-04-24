@@ -59,12 +59,12 @@
                 $db = $this->db->connect();
         
                 $sql = 'DELETE FROM service WHERE service_id = :service_id;';
-                var_dump($sql);
+                
                 $query = $db->prepare($sql);
         
                 $query->bindParam(':service_id', $service_id);
                 $result = $query->execute();
-        
+                var_dump($result);
                 if($result){
                     var_dump("SUCCESS");
                     return true;
