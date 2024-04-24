@@ -11,6 +11,12 @@
 
     $appointment = new Appointment;
 
+    if(isset($_POST['delete'])){
+        if($service->deleteservice($appointment_id)){
+            $success_message = 'service cancelled successfully.';
+        }
+    }
+
     if(!$appointment->getAppointmentInfo($customer['customer_id'], $appointment_id)){
         $error_message = 'An error has been occurred, please try again.';
     }
@@ -67,6 +73,14 @@
 
         <div class="payment">
             <div class="content">
+                <div class="account">
+                    <span>Your Name: </span>
+                    <p class="name">
+                        <?= $customer['last_name'] . ', ' . $customer['first_name'] . ' ' . $customer['middle_name'] ?>
+                    </p>
+
+                </div>
+
                 <div>
                     <span>Your Address: </span>
 
@@ -88,7 +102,12 @@
                 <div>
                     <span>Set appointment Date: </span>
                     
-                    <p><?php echo $appointment_info['set_date'] ?></p>
+                    <?php
+                    $set_date = $appointment_info['set_date'];
+                    $formatted_date = date("F j, Y", strtotime($set_date));
+                    ?>
+
+                    <p><?php echo $formatted_date; ?></p>
                 </div>
 
 
@@ -105,7 +124,23 @@
                 echo '<input type="submit" class="action-button" value="Mark as Claimed" name="mark_claimed">';
             }
         ?>
+        
     </div>
+
+    <!-- <div class="button">
+        <button type="button" class="action-btn">Cancel Appointment</button>
+    </div>
+
+    <div class="modal">
+        <p>Confirm Cancellation?</p>
+
+        <div class="buttons">
+            <button type="button">Cancel</button>
+            <input type="submit" name="confirm" value="Confirm">
+        </div>
+    </div>
+
+    <span class="overlay"></span> -->
 </form>
 
 <?php

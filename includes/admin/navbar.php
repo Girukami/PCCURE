@@ -23,15 +23,15 @@
         <div class="account">
             <img src="../images/icons/random/profile.svg">
 
-            <p class="name">
-                <?= $admin['last_name'] . ', ' . $admin['first_name'] . ' ' . $admin['middle_name'] ?>
+            <p class="name" style="color: black;">
+                <?= $admin['first_name'] ?>
             </p>
 
             <img src="../images/icons/random/arrowdown.svg">
         </div>
 
         <div class="action">
-            <a href="#">Profile</a>
+            <!-- <a href="#">Profile</a> -->
             <a href="logout.php">Logout</a>
         </div>
 

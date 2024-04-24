@@ -45,8 +45,8 @@ CREATE TABLE `admin` (
 -- Dumping data for table `admin`
 --
 
-INSERT INTO `admin` (`admin_id`, `email`, `password`, `first_name`, `middle_name`, `last_name`, `location`, `contact_num`, `specreq`, `set_date`) VALUES
-(1, 'admin@gmail.com', 'adminnnn', 'Benkhair', 'Z.', 'Pogi', 'Talon-talon Zamboanga City', '09123456789', 'hello');
+INSERT INTO `admin` (`admin_id`, `email`, `password`, `first_name`, `specreq`, `set_date`) VALUES
+(1, 'admin@gmail.com', 'adminnnn', 'Admin');
 
 -- --------------------------------------------------------
 
@@ -213,9 +213,7 @@ CREATE TABLE `service` (
   `name` varchar(255) NOT NULL,
   `price` decimal(10,2) NOT NULL,
   `description` varchar(255) NOT NULL,
-  `image` varchar(255) NOT NULL,
-  `specreq`varchar(255) NOT NULL,
-  `set_date` date(191) NOT NULL
+  `image` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------

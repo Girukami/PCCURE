@@ -21,7 +21,7 @@
         <div class="account">
             <img src="../images/icons/random/profile.svg">
 
-            <p class="name">
+            <p class="name" style="color: black;">
                 <?= $customer['last_name'] . ', ' . $customer['first_name'] . ' ' . $customer['middle_name'] ?>
             </p>
 
@@ -29,7 +29,7 @@
         </div>
 
         <div class="action">
-            <a href="#">Profile</a>
+            <!-- <a href="#">Profile</a> -->
             <a href="logout.php">Logout</a>
         </div>
 

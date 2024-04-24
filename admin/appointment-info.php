@@ -66,6 +66,13 @@
 
         <div class="payment">
             <div class="content">
+                <div class="account">
+                    <span>Client's Name: </span>
+                    <p>
+                        <?php echo $appointment_info['last_name'] . ', ' . $appointment_info['first_name'] . ' ' . $appointment_info['middle_name'] ?>
+                    </p>
+                </div>
+                
                 <div>
                     <span>Address: </span>
 
@@ -83,11 +90,16 @@
 
                     <p><?php echo $appointment_info['specreq'] ?></p>
                 </div>
+                
+                <div class="row">
+                <span>Schedule: </span>
 
-                <div>
-                    <span>Schedule: </span>
+                    <?php
+                    $set_date = $appointment_info['set_date'];
+                    $formatted_date = date("F j, Y", strtotime($set_date));
+                    ?>
 
-                    <p><?php echo $appointment_info['set_date'] ?></p>
+                    <p><?php echo $formatted_date; ?></p>
                 </div>
             </div>
         </div>

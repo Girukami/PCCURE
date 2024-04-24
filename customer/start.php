@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../style/main.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
@@ -34,8 +35,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
     <a href="#services" class="w3-bar-item w3-button w3-padding-large w3-white">Services</a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Contact Us</a>
     <a href="#aboutus" class="w3-bar-item w3-button w3-padding-large w3-white">About Us</a>
+    <a href="#reachus" class="w3-bar-item w3-button w3-padding-large w3-white">Reach Us</a>
   </div>
 
   <!-- Navbar on small screens -->
@@ -57,7 +58,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 
 <!-- First Grid -->
-<section id="aboutus" class="wr-twothird">
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
@@ -72,47 +72,100 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     </div>
   </div>
 </div>
-</section>
 
 
 <!-- Second Grid -->
 <section id="services" class="wr-twothrird">
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <link rel="stylesheet" href="main.css">
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
     </div>
 
     <div class="w3-twothird">
-      <h1>Services</h1>
-      <h5 class="w3-padding-32 justified  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <h1>Services we Offer</h1>
+      <h5 class="w3-padding-32 justified  ">Your swag will be mine ;></h5>
 
-      <p class="w3-text-grey justified">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="w3-text-grey justified">Welcome to Swag Nation, your one-stop destination for all things stylish and trendy! We're passionate about curating the latest and hottest fashion trends, from streetwear to chic accessories, 
+        to help you express your unique style with confidence. Dive into our collection and discover a world of fashion-forward choices that reflect your personality and elevate your wardrobe. 
+        Join the Swag Nation today and unleash your inner fashionista!"</p>
 </div>
     </div>
   </div>
 </div>
 </section>
 
+<section id="aboutus">
 
-<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Have questions? Reach us out on our Social Media Platform</h1>
+
+<div class="w3-container w3-black w3-center w3-padding-64">
+    <div class="about-section">
+      <h1>ABOUT US</h1>
+      <p class="justified">Welcome to PCCURE, your trusted partner in professional computer servicing! With a team of experienced technicians and a commitment to delivering top-notch solutions, we specialize in diagnosing and 
+        resolving a wide range of computer issues. Whether it's hardware repairs, software optimization, data recovery, or system upgrades, we're here to provide reliable and efficient service tailored to your needs. 
+        Trust PCCURE for expert solutions that keep your technology running smoothly, so you can focus on what matters most.</p>
+    </div>
+    <h1> </h1>
+    <h1 style="text-align:center">Meet the Team</h1>
+
+    <div class="row">
+        <!-- Team member 1 -->
+        <div class="column">
+            <div class="card">
+                <img src="../images/Jongks.jpg" alt="John Gil" style="width:100%">
+                <div class="container">
+                    <h2>John Gil M. Eclipse</h2>
+                    <p class="title">Programmer</p>
+                    <p>When life offers you potatoes, make frenchfries.</p>
+                    <p>jgm.eclipse@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team member 2 -->
+        <div class="column">
+            <div class="card">
+                <img src="../images/Boss1.jpg" alt="R-Shariff" style="width:100%">
+                <div class="container">
+                    <h2>R-Shariff A. Asula</h2>
+                    <p class="title">CEO & Founder</p>
+                    <p>"Nanakorobi yaoki"</p>
+                    <p>Stumble 7 times, then stand up 8</p>
+                    <p>jane@example.com</p>
+                </div>
+            </div>
+        </div>
+        <!-- Team member 3 -->
+        <div class="column">
+            <div class="card">
+                <img src="../images/Boss2.jpg" alt="Benkhair" style="width:100%">
+                <div class="container">
+                    <h2>Benkhair Najir</h2>
+                    <p class="title">Computer Servicing Technician</p>
+                    <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>benkhairnajir2001@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </div>
+</section>
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+<section id="reachus">
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">
+
   <div class="w3-xlarge w3-padding-32">
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p>customerservice@pccure.site</p>
  </div>
  <p>© Copyright 2024 <a>PCCURE</a></p>
 </footer>
+  
+</section>
 
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button
