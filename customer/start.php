@@ -170,7 +170,7 @@ body {
         <!-- Team member 2 -->
         <div class="column">
             <div class="card">
-                <img src="../images/Jongks.jpg" alt="RShariff" style="width:100%">
+                <img src="../images/Shari.jpg" alt="R-Shariff" style="width:100%">
                 <div class="container">
                     <h2>R-Shariff A. Asula</h2>
                     <p class="title">CEO & Founder</p>
