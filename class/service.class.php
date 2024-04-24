@@ -64,7 +64,7 @@
         
                 $query->bindParam(':service_id', $service_id);
         
-                if ($query->execute()) {
+                if($query->execute()){
                     var_dump("SUCCESS");
                     return true;
                 } else {
@@ -73,6 +73,7 @@
                     return false;
                 }
             } catch (PDOException $e) {
+                var_dump("FAILED");
                 error_log("PDOException in deleteservice(): " . $e->getMessage());
                 return false;
             }
