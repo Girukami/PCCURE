@@ -208,15 +208,15 @@ body {
   <i class="fa fa-twitter w3-hover-opacity" id="twitterIcon"></i>
     <script>
       document.getElementById('facebookIcon').onclick = function() {
-        window.location.href = 'https://www.facebook.com/', '_blank'; // Change the URL to your Facebook page
+        window.open('https://www.facebook.com/', '_blank'); // Change the URL to your Facebook page
       };
       
       document.getElementById('instagramIcon').onclick = function() {
-        window.location.href = 'https://www.instagram.com/', '_blank'; // Change the URL to your Instagram page
+        window.open('https://www.instagram.com/', '_blank'); // Change the URL to your Instagram page
       };
 
       document.getElementById('twitterIcon').onclick = function() {
-        window.location.href = 'https://twitter.com/', '_blank'; // Change the URL to your Twitter page
+        window.open('https://twitter.com/', '_blank'); // Change the URL to your Twitter page
       };
     </script>
     <p>customerservice@pccure.site</p>
