@@ -57,13 +57,15 @@
         function deleteservice($service_id){
             try {
                 $db = $this->db->connect();
-        
+                var_dump("IM HERE 1");
                 $sql = 'DELETE FROM service WHERE service_id = :service_id;';
-                
+                var_dump("IM HERE 2");
                 $query = $db->prepare($sql);
-        
+                var_dump("IM HERE 3");
                 $query->bindParam(':service_id', $service_id);
+                var_dump("IM HERE 4");
                 $result = $query->execute();
+                var_dump("IM HERE 5");
                 var_dump($result);
                 if($result){
                     var_dump("SUCCESS");
