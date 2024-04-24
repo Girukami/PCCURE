@@ -17,7 +17,7 @@
     include_once '../includes/admin/header.php';
     include_once '../includes/admin/navbar.php';
 
-    if(isset($_POST['delete'])){
+    if(isset($_POST["delete"])){
         if($service->deleteservice($service_id)){
             $success_message = 'service successfully deleted.';
         }
@@ -65,9 +65,7 @@
 
         <div class="buttons">
             <button type="button">Cancel</button>
-            <form method="post">
-                <input type="submit" name="delete" value="Delete service">
-            </form>
+            <input type="submit" name="delete" value="Delete service">
         </div>
 
         
