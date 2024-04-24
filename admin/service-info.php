@@ -65,9 +65,9 @@
 
         <div class="buttons">
             <button type="button">Cancel</button>
-            <input type="submit" name="delete" value="Delete service">
-
-            
+            <form method="post">
+                <input type="submit" name="delete" value="Delete service">
+            </form>
         </div>
 
         
