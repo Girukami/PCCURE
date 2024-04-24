@@ -65,7 +65,7 @@
                 $query->bindParam(':service_id', $service_id);
                 $result = $query->execute();
         
-                if($query->execute()){
+                if($result){
                     var_dump("SUCCESS");
                     return true;
                 } else {
