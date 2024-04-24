@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../style/main.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
@@ -98,7 +99,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 
 <div class="w3-container w3-black w3-center w3-padding-64">
-  <link rel="stylesheet" href="../style/main.css">
     <div class="about-section">
       <h1>ABOUT US</h1>
       <p class="justified">Welcome to PCCURE, your trusted partner in professional computer servicing! With a team of experienced technicians and a commitment to delivering top-notch solutions, we specialize in diagnosing and 
