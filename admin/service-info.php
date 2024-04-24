@@ -19,7 +19,8 @@
 
     if(isset($_POST["delete"])){
         var_dump($service_id);
-        if($service->deleteservice($service_id)){
+        $success = $service->deleteservice($service_id);
+        if($success){
             $success_message = 'service successfully deleted.';
         }
     }
