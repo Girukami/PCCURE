@@ -160,7 +160,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <i class="fa fa-facebook-official w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
-    <p>PCCURE@gmail.com</p>
+    <p>customerservice@pccure.site</p>
  </div>
  <p>© Copyright 2024 <a>PCCURE</a></p>
 </footer>
