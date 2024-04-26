@@ -180,7 +180,7 @@
                     <option value="option2">John Gil M. Eclipse</option>
                     <option value="option3">Benkhair A. Najir</option>
                 </select>
-                <input type="submit" value="<?php if(isset($service_id)){ echo $service_info['worker']; } if(isset($_POST['worker'])){ echo $_POST['worker']; } ?>">
+                
 
                 <div class="service_desc">
                     <span>Description: </span>
