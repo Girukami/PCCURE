@@ -22,7 +22,6 @@
        }
     }
 
-    var_dump($appointment_id);
     if(!$appointment->getAppointmentInfo($_SESSION['user_type'], $appointment_id)){
         header('location: home.php?error_message=An error has been occurred, please try again.');
     }
