@@ -45,7 +45,7 @@ CREATE TABLE `admin` (
 -- Dumping data for table `admin`
 --
 
-INSERT INTO `admin` (`admin_id`, `email`, `password`, `first_name`, `specreq`, `set_date`) VALUES
+INSERT INTO `admin` (`admin_id`, `email`, `password`, `first_name`) VALUES
 (1, 'admin@gmail.com', 'adminnnn', 'Admin');
 -- --------------------------------------------------------
 
