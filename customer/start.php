@@ -330,7 +330,7 @@ img {vertical-align: middle;}
                 <img src="../images/Jongks.jpg" alt="John Gil" style="width:100%">
                 <div class="container">
                     <h2>John Gil M. Eclipse</h2>
-                    <p class="title">Programmer</p>
+                    <p class="title">Web Developer/Computer Servicing Technician</p>
                     <p>When life offers you potatoes, make french fries.</p>
                     <p>jgm.eclipse@gmail.com</p>
                 </div>
@@ -355,7 +355,7 @@ img {vertical-align: middle;}
                 <img src="../images/Boss2.jpg" alt="Benkhair" style="width:100%">
                 <div class="container">
                     <h2>Benkhair Najir</h2>
-                    <p class="title">Computer Servicing Technician</p>
+                    <p class="title">Web Developer/Computer Servicing Technician</p>
                     <p>Life isn't about waiting for the storm to pass, but about learning to dance in the thunder.</p>
                     <p>benkhairnajir2001@gmail.com</p>
                 </div>
