@@ -43,7 +43,7 @@ body {
 }
 
 .about-section {
-  padding: 50px;
+  padding: 40px;
   text-align: center;
   background-color: #474e5d;
   color: white;
