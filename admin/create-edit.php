@@ -28,7 +28,7 @@
         $description = htmlentities($_POST['description']);
         $worker = htmlentities($_POST['worker']);
 
-        if(!empty($_FILES['image']) && !empty($name) && !empty($price) && !empty($description) && $worker){
+        if(!empty($_FILES['image']) && !empty($name) && !empty($price) && !empty($description) && !empty($worker)){
             $img_name = $_FILES['image']['name'];
             $img_size = $_FILES['image']['size'];
             $tmp_name = $_FILES['image']['tmp_name'];
@@ -72,7 +72,7 @@
         $description = htmlentities($_POST['description']);
         $worker = htmlentities($_POST['worker']);
         
-        if(!empty($_FILES['new_image']) && !empty($name) && !empty($price) && !empty($description) && $worker){
+        if(!empty($_FILES['new_image']) && !empty($name) && !empty($price) && !empty($description) && !empty($worker)){
             $img_name = $_FILES['new_image']['name'];
             $img_size = $_FILES['new_image']['size'];
             $tmp_name = $_FILES['new_image']['tmp_name'];
@@ -176,7 +176,7 @@
 
                 <label for="dropdown">Select service Provider:</label>
                 <select name="dropdown" id="dropdown">
-                    <option value="<?php if(isset($service_id)){ echo $service_info['worker']; } if(isset($_POST['worker'])){ echo $_POST['worker']; } ?>">R-Shariff A. Asula</option>
+                    <option value="option1 <?php if(isset($service_id)){ echo $service_info['worker']; } if(isset($_POST['worker'])){ echo $_POST['worker']; } ?>">R-Shariff A. Asula</option>
                     <option value="<?php if(isset($service_id)){ echo $service_info['worker']; } if(isset($_POST['worker'])){ echo $_POST['worker']; } ?>">John Gil M. Eclipse</option>
                     <option value="<?php if(isset($service_id)){ echo $service_info['worker']; } if(isset($_POST['worker'])){ echo $_POST['worker']; } ?>">Benkhair A. Najir</option>
                 </select>
