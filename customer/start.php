@@ -110,7 +110,6 @@ body {
       <h1>PC CURE</h1>
       <h5 class="w3-padding-32">We strongly believe in providing great service, proficient recommendation, and reasonable price for our customers.</h5>
 
-      <p class="w3-text-grey">Description.</p>
     </div>
 
     <div class="w3-third w3-center">
