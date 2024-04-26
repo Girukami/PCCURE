@@ -122,7 +122,6 @@ body {
 <!-- Second Grid -->
 <section id="services" class="wr-twothrird">
 <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <link rel="stylesheet" href="main.css">
   <div class="w3-content">
     <div class="w3-third w3-center">
     </div>
