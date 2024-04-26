@@ -217,10 +217,8 @@ img {vertical-align: middle;}
 <section id="services" class="wr-twothrird">
   <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
     <div class="w3-content">
-      <div class="w3-third w3-center">
-      </div>
 
-      <div class="w3-twothird">
+      <div>
         <h1>WHAT WE DO</h1>
         <h5 class="w3-padding-32 justified ">asdasdasd</h5>
         <div class="slideshow-container">
@@ -324,9 +322,7 @@ img {vertical-align: middle;}
       <h1>ABOUT US</h1>
       <p class="justified" style="text-align:center"> We are PCCURE, composed of 3 computer enthusiast built to help fellow gamers, workers, and rookies in cleaning, optimizing, and building a PC for All around tasks.</p>
     </div>
-    <h1> </h1>
-    <h1 style="text-align:center">Meet the Team</h1>
-
+    
     <div class="row">
         <!-- Team member 1 -->
         <div class="column">
