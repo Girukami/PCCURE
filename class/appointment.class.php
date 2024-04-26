@@ -188,8 +188,6 @@
                 $data = $query->fetch();
             }
 
-            var_dump($data);
-
             return $data;
         }
 
