@@ -8,7 +8,7 @@
             $this->db = new Database;
         }
 
-        function saveNewService($image, $name, $price, $description, $specreq, $set_date){
+        function saveNewService($image, $name, $price, $description){
             $sql = 'INSERT INTO service (image, name, price, description, specreq, set_date) 
                     VALUES (:image, :name, :price, :description, :specreq, :set_date);';
 
@@ -17,8 +17,6 @@
             $query->bindParam(':name', $name);
             $query->bindParam(':price', $price);
             $query->bindParam(':description', $description);
-            $query->bindParam(':specreq', $specreq);
-            $query->bindParam(':set_date', $set_date);
 
             if($query->execute()){
                 return true;
