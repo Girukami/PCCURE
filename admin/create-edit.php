@@ -44,7 +44,7 @@
 
                         move_uploaded_file($tmp_name, $img_upload_path);
 
-                        if($service->saveNewservice($new_image_name, ucwords($name), $price, $description)){
+                        if($service->saveNewservice($new_image_name, ucwords($name), $price, $description, $worker)){
                             $success_message = 'New service has been successfully created.';
                             header('location: home.php?success_message=' . $success_message);
                         }
@@ -87,7 +87,7 @@
 
                         move_uploaded_file($tmp_name, $img_upload_path);
 
-                        if($service->saveEdit($service_id, $new_image_name, ucwords($name), $price, $description)){
+                        if($service->saveEdit($service_id, $new_image_name, ucwords($name), $price, $description, $worker)){
                             $success_message = 'New service created successfully.';
                         }
                     }
@@ -100,7 +100,7 @@
                 }
             }
             else{
-                if($service->saveEdit($service_id, 'empty', ucwords($name), $price, $description)){
+                if($service->saveEdit($service_id, 'empty', ucwords($name), $price, $description, $worker)){
                     $success_message = 'New service info saved successfully.';
                 }
             }
@@ -178,7 +178,7 @@
                     <option value="option2">John Gil M. Eclipse</option>
                     <option value="option3">Benkhair A. Najir</option>
                 </select>
-                <input type="submit" value="Submit">
+                <input type="submit" value="<?php if(isset($service_id)){ echo $service_info['worker']; } if(isset($_POST['worker'])){ echo $_POST['worker']; } ?>">
 
                 <div class="service_desc">
                     <span>Description: </span>

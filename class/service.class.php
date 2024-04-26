@@ -8,15 +8,16 @@
             $this->db = new Database;
         }
 
-        function saveNewService($image, $name, $price, $description){
-            $sql = 'INSERT INTO service (image, name, price, description) 
-                    VALUES (:image, :name, :price, :description);';
+        function saveNewService($image, $name, $price, $description, $worker){
+            $sql = 'INSERT INTO service (image, name, price, description, worker) 
+                    VALUES (:image, :name, :price, :description, :worker);';
 
             $query = $this->db->connect()->prepare($sql);
             $query->bindParam(':image', $image);
             $query->bindParam(':name', $name);
             $query->bindParam(':price', $price);
             $query->bindParam(':description', $description);
+            $query->bindParam(':worker', $worker);
 
             if($query->execute()){
                 return true;
@@ -25,9 +26,9 @@
             return false;
         }
 
-        function saveEdit($service_id, $image, $name, $price, $description){
+        function saveEdit($service_id, $image, $name, $price, $description, $worker){
             if($image === 'empty'){
-                $sql = 'UPDATE service SET name = :name, price = :price, description = :description 
+                $sql = 'UPDATE service SET name = :name, price = :price, description = :description, worker = :worker 
                         WHERE service_id = :service_id;';
 
                 $query = $this->db->connect()->prepare($sql);
@@ -44,6 +45,7 @@
             $query->bindParam(':name', $name);
             $query->bindParam(':price', $price);
             $query->bindParam(':description', $description);
+            $query->bindParam(':worker', $worker);
 
             if($query->execute()){
                 return true;
