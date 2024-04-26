@@ -211,7 +211,7 @@ img {vertical-align: middle;}
 
 <!-- Second Grid -->
 <section id="services" class="wr-twothrird">
-  <div class="w3-row-padding w3-light-grey w3-padding-100 w3-container">
+  <div class="w3-row-padding w3-light-grey w3-container">
     <div class="w3-content w3-center">
       <div class="w3-third w3-center">
       </div>
