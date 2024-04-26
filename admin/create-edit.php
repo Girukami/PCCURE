@@ -1,6 +1,5 @@
 <?php
     include_once '../class/service.class.php';
-    include_once '../class/admin.class.php';
     
     $service = new Service;
     
@@ -178,9 +177,9 @@
                 <label for="dropdown">Select service Provider:</label>
                 <select name="worker">
                     <option value="">>--Select Worker--<</option>
-                    <option value="<?php echo $worker['admin_id']?>"><?php echo $worker['first_name'] ?></option>
-                    <option value="">John Gil M. Eclipse</option>
-                    <option value="">Benkhair A. Najir</option>
+                    <option value="R-Sharif A. Asula<?php if(isset($service_id)){ echo $service_info['worker']; } if(isset($_POST['worker'])){ echo $_POST['worker']; } ?>">R-Shariff A. Asula</option>
+                    <option value="John Gil M. Eclipse">John Gil M. Eclipse</option>
+                    <option value="Benkhair A. Najir">Benkhair A. Najir</option>
                 </select>
                 
 
