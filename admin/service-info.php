@@ -43,6 +43,13 @@
                 </p>
             </div>
 
+            <div class="worker">
+                <span>Service Provider: </span>
+                <p>
+                    <?= $service_info['worker'] ?>
+                </p>
+            </div>
+
             <div class="description">
                 <div>
                     <span>Price: ₱</span>
