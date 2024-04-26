@@ -33,6 +33,7 @@
                             <p>Name: <?= $appointment_info['name'] ?></p>
                             <p>Cost: ₱<?= $appointment_info['price'] ?></p>
                             <p>Date & Time: <?= $appointment_info['date'] ?></p>
+                            <p>Date & Time: <?= $appointment_info['worker'] ?></p>
                         </div>
 
                         <p class="payment-status"> <?= ucwords($appointment_info['status']) ?></p>
