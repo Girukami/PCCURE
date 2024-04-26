@@ -218,8 +218,8 @@ img {vertical-align: middle;}
 
       <div class="w3-twothird">
         <h1>WHAT WE DO</h1>
-        <h5 class="w3-padding-32 justified  "></h5>
-        <div class="slideshow-container center">
+        <h5 class="w3-padding-32 justified "></h5>
+        <div class="slideshow-container center w3-center">
 
           <div class="mySlides fade">
             <div class="numbertext">1 / 7</div>
