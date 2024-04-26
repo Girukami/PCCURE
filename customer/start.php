@@ -171,7 +171,7 @@ body {
                     <p class="title">CEO & Founder</p>
                     <p>"Nanakorobi yaoki"</p>
                     <p>Stumble 7 times, then stand up 8</p>
-                    <p>customerservice@pccure.site</p>
+                    <p>asularsharif@gmail.com</p>
                 </div>
             </div>
         </div>
