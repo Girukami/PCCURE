@@ -216,7 +216,7 @@ img {vertical-align: middle;}
       <div class="w3-third w3-center">
       </div>
 
-      <div class="w3-twothird">
+      <div>
         <h1>WHAT WE DO</h1>
         <h5 class="w3-padding-32 justified "></h5>
         <div class="slideshow-container center w3-center">
