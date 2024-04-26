@@ -322,7 +322,7 @@ img {vertical-align: middle;}
       <h1>ABOUT US</h1>
       <p class="justified" style="text-align:center"> We are PCCURE, composed of 3 computer enthusiast built to help fellow gamers, workers, and rookies in cleaning, optimizing, and building a PC for All around tasks.</p>
     </div>
-    
+
     <div class="row">
         <!-- Team member 1 -->
         <div class="column">
@@ -331,7 +331,7 @@ img {vertical-align: middle;}
                 <div class="container">
                     <h2>John Gil M. Eclipse</h2>
                     <p class="title">Programmer</p>
-                    <p>When life offers you potatoes, make frenchfries.</p>
+                    <p>When life offers you potatoes, make french fries.</p>
                     <p>jgm.eclipse@gmail.com</p>
                 </div>
             </div>
