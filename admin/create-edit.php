@@ -172,6 +172,14 @@
                         value="<?php if(isset($service_id)){ echo $service_info['price']; } if(isset($_POST['price'])){ echo $_POST['price']; } ?>">
                 </div>
 
+                <label for="dropdown">Select service Provider:</label>
+                <select name="dropdown" id="dropdown">
+                    <option value="option1">Option 1</option>
+                    <option value="option2">Option 2</option>
+                    <option value="option3">Option 3</option>
+                </select>
+                <input type="submit" value="Submit">
+
                 <div class="service_desc">
                     <span>Description: </span>
     
