@@ -26,8 +26,9 @@
         $name = htmlentities($_POST['name']);
         $price = htmlentities($_POST['price']);
         $description = htmlentities($_POST['description']);
-        
-        if(!empty($_FILES['image']) && !empty($name) && !empty($price) && !empty($description)){
+        $worker = htmlentities($_POST['worker']);
+
+        if(!empty($_FILES['image']) && !empty($name) && !empty($price) && !empty($description) && !empty($worker)){
             $img_name = $_FILES['image']['name'];
             $img_size = $_FILES['image']['size'];
             $tmp_name = $_FILES['image']['tmp_name'];
@@ -69,8 +70,9 @@
         $name = htmlentities($_POST['name']);
         $price = htmlentities($_POST['price']);
         $description = htmlentities($_POST['description']);
+        $worker = htmlentities($_POST['worker']);
         
-        if(!empty($_FILES['new_image']) && !empty($name) && !empty($price) && !empty($description)){
+        if(!empty($_FILES['new_image']) && !empty($name) && !empty($price) && !empty($description) && !empty($worker)){
             $img_name = $_FILES['new_image']['name'];
             $img_size = $_FILES['new_image']['size'];
             $tmp_name = $_FILES['new_image']['tmp_name'];
