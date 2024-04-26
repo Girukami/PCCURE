@@ -75,7 +75,7 @@ body {
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
-img {vertical-align: middle;}
+img {vertical-align: center;}
 
 /* Slideshow container */
 .slideshow-container {
