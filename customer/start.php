@@ -99,7 +99,7 @@ body {
 <header class="w3-container header w3-center" style="padding:128px 16px; background-image: url(../MainBG.jpg); background-size: cover; background-position: center;">
   <h1 class="w3-margin w3-jumbo"><strong>PC CURE</strong></h1>
   <p class="w3-xlarge">Repair your PC now!</p>
-  <a href="login.php"><button class="w3-button w3-white w3-padding-large w3-large w3-margin-top" style="border-radius: 50px; color:#425A9E""><b>GET STARTED</b></button></a>
+  <a href="login.php"><button class="w3-button w3-white w3-padding-large w3-large w3-margin-top" style="border-radius: 50px;""><b style="color:#425A9E">GET STARTED</b></button></a>
 </header>
 
 
