@@ -147,7 +147,7 @@ body {
 <div class="w3-container w3-black w3-center w3-padding-64">
     <div class="about-section">
       <h1>ABOUT US</h1>
-      <p class="justified"> We are PCCURE, composed of 3 computer enthusiast built to help fellow gamers, workers, and rookies in cleaning, optimizing, and building a PC for All around tasks.</p>
+      <p class="justified" style="text-align:center"> We are PCCURE, composed of 3 computer enthusiast built to help fellow gamers, workers, and rookies in cleaning, optimizing, and building a PC for All around tasks.</p>
     </div>
     <h1> </h1>
     <h1 style="text-align:center">Meet the Team</h1>
