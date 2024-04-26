@@ -178,8 +178,8 @@
                 <select name="worker">
                     <option value="">>--Select Worker--<</option>
                     <option value="R-Sharif A. Asula<?php if(isset($service_id)){ echo $service_info['worker']; } if(isset($_POST['worker'])){ echo $_POST['worker']; } ?>">R-Shariff A. Asula</option>
-                    <option value="John Gil M. Eclipse">John Gil M. Eclipse</option>
-                    <option value="Benkhair A. Najir">Benkhair A. Najir</option>
+                    <option value="John Gil M. Eclipse<?php if(isset($service_id)){ echo $service_info['worker']; } if(isset($_POST['worker'])){ echo $_POST['worker']; } ?>">John Gil M. Eclipse</option>
+                    <option value="Benkhair A. Najir<?php if(isset($service_id)){ echo $service_info['worker']; } if(isset($_POST['worker'])){ echo $_POST['worker']; } ?>">Benkhair A. Najir</option>
                 </select>
                 
 
