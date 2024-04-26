@@ -127,7 +127,7 @@ body {
     </div>
 
     <div class="w3-twothird">
-      <h1>What we do</h1>
+      <h1>WHAT WE DO</h1>
       <h5 class="w3-padding-32 justified  "></h5>
 
       <p class="w3-text-grey justified"></p>
