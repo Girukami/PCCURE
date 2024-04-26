@@ -354,7 +354,7 @@ img {vertical-align: middle;}
             <div class="card">
                 <img src="../images/Boss2.jpg" alt="Benkhair" style="width:100%">
                 <div class="container">
-                    <h2>Benkhair Najir</h2>
+                    <h2>Benkhair A. Najir</h2>
                     <p class="title">Web Developer/Computer Servicing Technician</p>
                     <p>Life isn't about waiting for the storm to pass, but about learning to dance in the thunder.</p>
                     <p>benkhairnajir2001@gmail.com</p>
