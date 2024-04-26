@@ -22,11 +22,11 @@
        }
     }
 
-    if(!$appointment->getAppointmentInfo($_SESSION['user_type'], $appointment_id)){
+    if(!$appointment->getAppointmentInfo($_SESSION['admin'], $appointment_id)){
         header('location: home.php?error_message=An error has been occurred, please try again.');
     }
 
-    $appointment_info = $appointment->getAppointmentInfo($_SESSION['user_type'], $appointment_id);
+    $appointment_info = $appointment->getAppointmentInfo($_SESSION['admin'], $appointment_id);
     $status = $appointment_info['status'];
 ?>
 
