@@ -147,9 +147,7 @@ body {
 <div class="w3-container w3-black w3-center w3-padding-64">
     <div class="about-section">
       <h1>ABOUT US</h1>
-      <p class="justified">Welcome to PCCURE, your trusted partner in professional computer servicing! With a team of experienced technicians and a commitment to delivering top-notch solutions, we specialize in diagnosing and 
-        resolving a wide range of computer issues. Whether it's hardware repairs, software optimization, data recovery, or system upgrades, we're here to provide reliable and efficient service tailored to your needs. 
-        Trust PCCURE for expert solutions that keep your technology running smoothly, so you can focus on what matters most.</p>
+      <p class="justified"> We are PCCURE, composed of 3 computer enthusiast built to help fellow gamers, workers, and rookies in cleaning, optimizing, and building a PC for All around tasks.</p>
     </div>
     <h1> </h1>
     <h1 style="text-align:center">Meet the Team</h1>
