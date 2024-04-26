@@ -11,12 +11,6 @@
 
     $appointment = new Appointment;
 
-    if(isset($_POST['delete'])){
-        if($service->deleteservice($appointment_id)){
-            $success_message = 'service cancelled successfully.';
-        }
-    }
-
     if(!$appointment->getAppointmentInfo($customer['customer_id'], $appointment_id)){
         $error_message = 'An error has been occurred, please try again.';
     }
