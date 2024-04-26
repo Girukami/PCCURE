@@ -20,7 +20,7 @@
             <a href="customer-info.php?customer_id=<?= $customer['customer_id'] ?>">
                 <img src="../images/icons/random/profile-cust-list.svg" style="width: 100px; height: 100px;">
 
-                <div class="details">
+                <div class="details" style="color:black">
                     <p>Name: <?= $customer['last_name'] . ', ' . $customer['first_name'] . ' ' . $customer['middle_name'] ?></p>
                     <p>Address: <?= $customer['address'] ?></p>
                     <p>Contact Number: <?= $customer['contact_num'] ?></p>
