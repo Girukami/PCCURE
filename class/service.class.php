@@ -35,7 +35,7 @@
             }
             else{
                 $sql = 'UPDATE service SET image = :image, name = :name, price = :price, 
-                        description = :description WHERE service_id = :service_id;';
+                        description = :description, worker = :worker WHERE service_id = :service_id;';
 
                 $query = $this->db->connect()->prepare($sql);
                 $query->bindParam(':image', $image);
