@@ -222,20 +222,44 @@ img {vertical-align: middle;}
         <div class="slideshow-container center">
 
           <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
+            <div class="numbertext">1 / 7</div>
             <img src="../images/1.jpg" style="width:100%">
             <div class="text">Caption Text</div>
           </div>
 
           <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
+            <div class="numbertext">2 / 7</div>
             <img src="../images/2.jpg" style="width:100%">
             <div class="text">Caption Two</div>
           </div>
 
           <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
+            <div class="numbertext">3 / 7</div>
             <img src="../images/3.jpeg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 7</div>
+            <img src="../images/4.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 7</div>
+            <img src="../images/5.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 7</div>
+            <img src="../images/6.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 7</div>
+            <img src="../images/7.jpg" style="width:100%">
             <div class="text">Caption Three</div>
           </div>
 
