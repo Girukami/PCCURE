@@ -100,6 +100,10 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -211,11 +215,15 @@ img {vertical-align: middle;}
 
 <!-- Second Grid -->
 <section id="services" class="wr-twothrird">
-  <div class="w3-row-padding w3-light-grey w3-padding-100">
-      <div>
+  <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-third w3-center">
+      </div>
+
+      <div class="w3-twothird">
         <h1>WHAT WE DO</h1>
-        <h5 class="w3-padding-32"></h5>
-        <div class="slideshow-container w3-center">
+        <h5 class="w3-padding-32 justified ">asdasdasd</h5>
+        <div class="slideshow-container">
 
           <div class="mySlides fade">
             <div class="numbertext">1 / 7</div>
@@ -274,7 +282,6 @@ img {vertical-align: middle;}
           <span class="dot" onclick="currentSlide(6)"></span>
           <span class="dot" onclick="currentSlide(7)"></span>  
         </div>
-        <p class="w3-text-grey justified"></p>
       </div>
       <script>
         let slideIndex = 1;
@@ -338,7 +345,7 @@ img {vertical-align: middle;}
             <div class="card">
                 <img src="../images/Shari.jpg" alt="R-Shariff" style="width:100%">
                 <div class="container">
-                    <h2>R-Sharif A. Asula</h2>
+                    <h2>R-Shariff A. Asula</h2>
                     <p class="title">CEO & Founder</p>
                     <p>"Nanakorobi yaoki"</p>
                     <p>Stumble 7 times, then stand up 8</p>
