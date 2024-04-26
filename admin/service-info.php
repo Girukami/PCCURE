@@ -43,12 +43,7 @@
                 </p>
             </div>
 
-            <div class="worker">
-                <span>Service Provider: </span>
-                <p>
-                    <?= $service_info['worker'] ?>
-                </p>
-            </div>
+            
 
             <div class="description">
                 <div>
@@ -57,6 +52,13 @@
                         <?= $service_info['price'] ?>
                     </p>
                 </div>
+            </div>
+            
+            <div class="worker">
+                <span>Service Provider: </span>
+                <p>
+                    <?= $service_info['worker'] ?>
+                </p>
             </div>
 
             <p class="desc-text"><?= $service_info['description'] ?></p>
