@@ -72,6 +72,11 @@ body {
   color: grey;
 }
 
+{box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -214,7 +219,7 @@ body {
       <div class="w3-twothird">
         <h1>WHAT WE DO</h1>
         <h5 class="w3-padding-32 justified  "></h5>
-        <div class="slideshow-container w3-center">
+        <div class="slideshow-container center">
 
           <div class="mySlides fade">
             <div class="numbertext">1 / 3</div>
