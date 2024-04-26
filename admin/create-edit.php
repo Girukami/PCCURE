@@ -177,9 +177,9 @@
                 <label for="dropdown">Select service Provider:</label>
                 <select name="worker">
                     <option value="">>--Select Worker--<</option>
-                    <option value="<?php if(isset($service_id)){ echo $service_info['worker']; } if(isset($_POST['worker'])){ echo $_POST['worker']; } ?>">R-Shariff A. Asula</option>
-                    <option value="<?php if(isset($service_id)){ echo $service_info['worker']; } if(isset($_POST['worker'])){ echo $_POST['worker']; } ?>">John Gil M. Eclipse</option>
-                    <option value="<?php if(isset($service_id)){ echo $service_info['worker']; } if(isset($_POST['worker'])){ echo $_POST['worker']; } ?>">Benkhair A. Najir</option>
+                    <option value="">R-Shariff A. Asula</option>
+                    <option value="">John Gil M. Eclipse</option>
+                    <option value="">Benkhair A. Najir</option>
                 </select>
                 
 

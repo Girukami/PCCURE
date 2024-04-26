@@ -47,7 +47,9 @@ CREATE TABLE `admin` (
 
 INSERT INTO `admin` (`admin_id`, `email`, `password`, `first_name`, `specreq`, `set_date`) VALUES
 (1, 'admin@gmail.com', 'adminnnn', 'Admin');
-
+(2, 'admin1@gmail.com', 'admin', 'R-Sharif');
+(3, 'admin2@gmail.com', 'admin', 'John Gil');
+(4, 'admin3@gmail.com', 'admin', 'Benkhair');
 -- --------------------------------------------------------
 
 --
