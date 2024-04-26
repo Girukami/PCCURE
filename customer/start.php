@@ -219,7 +219,7 @@ img {vertical-align: middle;}
       <div>
         <h1>WHAT WE DO</h1>
         <h5 class="w3-padding-32 justified "></h5>
-        <div class="slideshow-container center w3-center">
+        <div class="slideshow-container w3-center">
 
           <div class="mySlides fade">
             <div class="numbertext">1 / 7</div>
@@ -342,7 +342,7 @@ img {vertical-align: middle;}
             <div class="card">
                 <img src="../images/Shari.jpg" alt="R-Shariff" style="width:100%">
                 <div class="container">
-                    <h2>R-Shariff A. Asula</h2>
+                    <h2>R-Sharif A. Asula</h2>
                     <p class="title">CEO & Founder</p>
                     <p>"Nanakorobi yaoki"</p>
                     <p>Stumble 7 times, then stand up 8</p>
