@@ -18,7 +18,7 @@
         <div class="orders">
             <!-- <a href="customer-info.php?customer_id=' . $order_id; } else { echo 'order-info.php?order_id=' . $order_id; } ?>"> -->
             <a href="customer-info.php?customer_id=<?= $customer['customer_id'] ?>">
-                <img src="../images/icons/random/profile-cust-list.svg" style="width: 100px; height: 100px; color:black">
+                <img src="../images/icons/random/profile-cust-list.svg" style="width: 100px; height: 100px;">
 
                 <div class="details" style="color:black">
                     <p>Name: <?= $customer['last_name'] . ', ' . $customer['first_name'] . ' ' . $customer['middle_name'] ?></p>
