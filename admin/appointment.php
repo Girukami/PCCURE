@@ -26,7 +26,7 @@
                 foreach($appointment->getAllByStatus($_SESSION['user_type'], $appointment_status['status']) as $appointment_info){
                     $appointment_id = $appointment_info['appointment_id'];
             ?>
-                    <a href="<?php if($appointment_status['status'] === 'reviewing'){ echo 'checkout.php?appointment_id=' . $appointment_id; } else { echo 'appointment-info.php'; } ?>">
+                    <a href="<?php if($appointment_status['status'] === 'pending'){ echo 'checkout.php?appointment_id=' . $appointment_id; } else { echo 'appointment-info.php?appointment_id=' . $appointment_id; } ?>">
                         <img src="../images/uploads/services/<?= $appointment_info['image'] ?>" style="width: 100px; height: 100px;">
 
                         <div class="details" style="color:black">
