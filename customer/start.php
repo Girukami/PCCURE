@@ -220,7 +220,7 @@ img {vertical-align: middle;}
 
       <div>
         <h1>WHAT WE DO</h1>
-        <h5 class="w3-padding-32 justified ">asdasdasd</h5>
+        <h5 class="w3-padding-32 justified "></h5>
         <div class="slideshow-container">
 
           <div class="mySlides fade">
