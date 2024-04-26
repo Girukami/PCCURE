@@ -105,10 +105,10 @@ CREATE TABLE `customer` (
 -- Dumping data for table `customer`
 --
 
-INSERT INTO `customer` (`customer_id`, `email`, `password`, `first_name`, `middle_name`, `last_name`, `contact_num`, `address`, `created_at`, `updated_at`, `specreq`, `set_date`) VALUES
-(5, 'customer1@wmsu.edu.ph', 'customerr', 'Benkhair', 'Very Very Super Duper', 'Pogi', '09123456789', 'Talon-talon Logoy Diutay HAHAH diutay', '2024-04-05 07:23:03', '2024-04-06 14:28:15', 'hello'),
-(6, 'customer2@wmsu.edu.ph', 'customerr', 'Julkipli', 'Graduated', 'CUM Laude', '09123456789', 'Mile Stone', '2024-04-11 04:13:56', '2024-04-11 04:13:56', 'hello'),
-(7, 'benkhairpogi@gmail.com', '126219120921', 'Benkhair', 'Akmad', 'Najir', '09558903235', 'Talon-talon', '2024-04-11 06:05:35', '2024-04-11 06:05:35', 'hello');
+-- INSERT INTO `customer` (`customer_id`, `email`, `password`, `first_name`, `middle_name`, `last_name`, `contact_num`, `address`, `created_at`, `updated_at`, `specreq`, `set_date`) VALUES
+-- (5, 'customer1@wmsu.edu.ph', 'customerr', 'Benkhair', 'Very Very Super Duper', 'Pogi', '09123456789', 'Talon-talon Logoy Diutay HAHAH diutay', '2024-04-05 07:23:03', '2024-04-06 14:28:15', 'hello'),
+-- (6, 'customer2@wmsu.edu.ph', 'customerr', 'Julkipli', 'Graduated', 'CUM Laude', '09123456789', 'Mile Stone', '2024-04-11 04:13:56', '2024-04-11 04:13:56', 'hello'),
+-- (7, 'benkhairpogi@gmail.com', '126219120921', 'Benkhair', 'Akmad', 'Najir', '09558903235', 'Talon-talon', '2024-04-11 06:05:35', '2024-04-11 06:05:35', 'hello');
 
 -- --------------------------------------------------------
 
