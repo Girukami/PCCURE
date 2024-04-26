@@ -129,12 +129,10 @@ body {
     </div>
 
     <div class="w3-twothird">
-      <h1>Services we Offer</h1>
-      <h5 class="w3-padding-32 justified  ">Your swag will be mine ;></h5>
+      <h1>What we do</h1>
+      <h5 class="w3-padding-32 justified  "></h5>
 
-      <p class="w3-text-grey justified">Welcome to Swag Nation, your one-stop destination for all things stylish and trendy! We're passionate about curating the latest and hottest fashion trends, from streetwear to chic accessories, 
-        to help you express your unique style with confidence. Dive into our collection and discover a world of fashion-forward choices that reflect your personality and elevate your wardrobe. 
-        Join the Swag Nation today and unleash your inner fashionista!"</p>
+      <p class="w3-text-grey justified"></p>
 </div>
     </div>
   </div>
