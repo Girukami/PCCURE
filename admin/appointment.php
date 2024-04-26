@@ -29,7 +29,7 @@
                     <a href="<?php if($appointment_status['status'] === 'reviewing'){ echo 'checkout.php?appointment_id=' . $appointment_id; } else { echo 'appointment-info.php?appointment_id=' . $appointment_id; } ?>">
                         <img src="../images/uploads/services/<?= $appointment_info['image'] ?>" style="width: 100px; height: 100px;">
 
-                        <div class="details">
+                        <div class="details" style="color:black">
                             <p>Name: <?= $appointment_info['name'] ?></p>
                             <p>Cost: ₱<?= $appointment_info['price'] ?></p>
                             <p>Date & Time: <?= $appointment_info['date'] ?></p>
