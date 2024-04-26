@@ -370,7 +370,7 @@ img {vertical-align: middle;}
 <section id="reachus">
 
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">
-
+<h3>୨⎯ " Reach us out on our social media Platform " ⎯୧</h3>
   <div class="w3-xlarge w3-padding-32">
   <i class="fa fa-facebook-official w3-hover-opacity" id="facebookIcon"></i>
   <i class="fa fa-instagram w3-hover-opacity" id="instagramIcon"></i>
