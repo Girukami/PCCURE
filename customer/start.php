@@ -263,7 +263,7 @@ img {vertical-align: middle;}
           <div class="mySlides fade">
             <div class="numbertext">7 / 7</div>
             <img src="../images/7.jpg" style="width:100%">
-            <div class="text">PC Build</div>
+            <div class="text" style="color:black;">PC Build</div>
           </div>
 
           <a class="prev" onclick="plusSlides(-1)">❮</a>
