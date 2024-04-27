@@ -213,3 +213,8 @@
 <?php
     include_once '../includes/admin/footer.php';
 ?>
+
+<script>
+    var userType = <?php echo json_encode($_SESSION['worker']); ?>;
+    console.log(userType);
+</script>

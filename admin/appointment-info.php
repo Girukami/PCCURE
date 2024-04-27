@@ -113,7 +113,7 @@
                 echo '<input type="submit" class="action-button" value="Mark as Done" name="mark_done">';
             }
         }
-         ?>
+    ?>
     </div>
 </form>
 

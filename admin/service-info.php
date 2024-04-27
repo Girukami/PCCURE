@@ -58,6 +58,7 @@
                 <span>Service Provider: </span>
                 <p>
                     <?= $service_info['worker'] ?>
+                    <?php $_SESSION['worker'] = $service_info['worker']?>
                 </p>
             </div>
 

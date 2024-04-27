@@ -49,9 +49,4 @@
     include_once '../includes/admin/header.php';
 ?>
 
-<script>
-    var userType = <?php echo json_encode($_SESSION['user_type']); ?>;
-    var appointmentId = <?php echo json_encode($_SESSION['appointment_id']); ?>;
-    console.log(userType);
-    console.log(appointmentId);
-</script>
+
