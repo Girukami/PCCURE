@@ -40,6 +40,7 @@ body{
         <?= $page_title ?>
     </title>
 
+    <link rel="shortcut icon" href="../images/icons/logo/Logo.png">
     <link rel="stylesheet" href="../style/main.css">
 </head>
 
