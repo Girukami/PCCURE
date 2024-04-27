@@ -233,37 +233,37 @@ img {vertical-align: middle;}
           <div class="mySlides fade">
             <div class="numbertext">2 / 7</div>
             <img src="../images/2.jpg" style="width:100%">
-            <div class="text">Caption Two</div>
+            <div class="text">Ram Upgrade</div>
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext">3 / 7</div>
             <img src="../images/3.jpeg" style="width:100%">
-            <div class="text">Caption Three</div>
+            <div class="text">SSD/HDD installation</div>
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext">4 / 7</div>
             <img src="../images/4.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
+            <div class="text">Deep Laptop Cleaning</div>
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext">5 / 7</div>
             <img src="../images/5.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
+            <div class="text">PC Cleaning</div>
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext">6 / 7</div>
             <img src="../images/6.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
+            <div class="text">PC/Laptop Optimization</div>
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext">7 / 7</div>
             <img src="../images/7.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
+            <div class="text">PC Build</div>
           </div>
 
           <a class="prev" onclick="plusSlides(-1)">❮</a>
