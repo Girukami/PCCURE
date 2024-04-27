@@ -227,7 +227,7 @@ img {vertical-align: middle;}
           <div class="mySlides fade">
             <div class="numbertext">1 / 7</div>
             <img src="../images/1.jpg" style="width:100%">
-            <div class="text">Caption Text</div>
+            <div class="text">Laptop Cleaning</div>
           </div>
 
           <div class="mySlides fade">
