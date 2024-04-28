@@ -58,8 +58,7 @@
         <div class="inputs">
             <div class="email">
                 <label for="email">Email</label>
-
-                <input type="email" id="email" name="email" placeholder="Enter email" />
+                <input type="email" id="email" name="email" placeholder="Enter email" value="<?php echo isset($_POST['email']) ? htmlspecialchars($_POST['email']) : ''; ?>" />
             </div>
 
             <div class="password">
