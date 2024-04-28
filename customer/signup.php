@@ -92,9 +92,6 @@
             <input type="password" id="password2" name="password2" placeholder="Re-enter password" />
         </div>
 
-        <div>
-            <button type="submit">Submit</button>
-        </div>
     </div>
 
         <div class="actions">
