@@ -378,11 +378,11 @@ img {vertical-align: middle;}
   <i class="fa fa-twitter w3-hover-opacity" id="twitterIcon"></i>
     <script>
       document.getElementById('facebookIcon').onclick = function() {
-        window.open('https://www.facebook.com/', '_blank'); // Change the URL to your Facebook page
+        window.open('https://www.facebook.com/shariful.muluk', '_blank'); // Change the URL to your Facebook page
       };
       
       document.getElementById('instagramIcon').onclick = function() {
-        window.open('https://www.instagram.com/', '_blank'); // Change the URL to your Instagram page
+        window.open('https://www.instagram.com/hanszxcv_/', '_blank'); // Change the URL to your Instagram page
       };
 
       document.getElementById('twitterIcon').onclick = function() {
