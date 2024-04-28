@@ -4,10 +4,9 @@
     include_once '../includes/customer/header.php';
 
     if(isset($_POST['signup'])){
-        if(!empty($_POST['fname']) && !empty($_POST['mname']) && !empty($_POST['lname']) && !empty($_POST['email']) && !empty($_POST['cnum']) && 
+        if(!empty($_POST['fname']) && !empty($_POST['lname']) && !empty($_POST['email']) && !empty($_POST['cnum']) && 
         !empty($_POST['address']) && !empty($_POST['password']) && !empty($_POST['password2'])){
             $fname = htmlentities($_POST['fname']);
-            $mname = htmlentities($_POST['mname']);
             $lname = htmlentities($_POST['lname']);
             $email = htmlentities($_POST['email']);
             $cnum = htmlentities($_POST['cnum']);
@@ -20,7 +19,7 @@
 
             if($password === $password2){
                 $hashed_password = password_hash($password, PASSWORD_DEFAULT);
-                if($customer->signup($fname, $mname, $lname, $email, $cnum, $address, $hashed_password)){
+                if($customer->signup($fname, $_POST['mname'], $lname, $email, $cnum, $address, $hashed_password)){
                     header('location: login.php?success_message=Registration Successful. Please login to proceed.');
                 }
                 else{
@@ -36,6 +35,7 @@
         }
     }
 ?>
+
 
 <section class="login signup">
     <form class="login-cont" method="post">
