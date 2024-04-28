@@ -54,7 +54,7 @@
         <div class="inputs">
         <div>
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="fname" placeholder="Enter first name" value="<?php echo isset($_POST['fname']) ? htmlspecialchars($_POST['fname']) : ''; ?>" />
+            <input type="text" id="fname" name="fname" placeholder="Enter first name" value="<?php echo isset($_POST['fname']) ? htmlspecialchars($_POST['fname']) : ''; ?>" required />
         </div>
 
         <div>
@@ -64,32 +64,32 @@
 
         <div>
             <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lname" placeholder="Enter last name" value="<?php echo isset($_POST['lname']) ? htmlspecialchars($_POST['lname']) : ''; ?>" />
+            <input type="text" id="lname" name="lname" placeholder="Enter last name" value="<?php echo isset($_POST['lname']) ? htmlspecialchars($_POST['lname']) : ''; ?>" required />
         </div>
 
         <div>
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Enter email" value="<?php echo isset($_POST['email']) ? htmlspecialchars($_POST['email']) : ''; ?>" />
+            <input type="email" id="email" name="email" placeholder="Enter email" value="<?php echo isset($_POST['email']) ? htmlspecialchars($_POST['email']) : ''; ?>" required />
         </div>
 
         <div>
             <label for="cnum">Contact Number</label>
-            <input type="text" id="cnum" name="cnum" placeholder="Enter contact number" value="<?php echo isset($_POST['cnum']) ? htmlspecialchars($_POST['cnum']) : ''; ?>" />
+            <input type="text" id="cnum" name="cnum" placeholder="Enter contact number" value="<?php echo isset($_POST['cnum']) ? htmlspecialchars($_POST['cnum']) : ''; ?>" required />
         </div>
 
         <div>
             <label for="address">Address</label>
-            <input type="text" id="address" name="address" placeholder="Enter complete address" value="<?php echo isset($_POST['address']) ? htmlspecialchars($_POST['address']) : ''; ?>" />
+            <input type="text" id="address" name="address" placeholder="Enter complete address" value="<?php echo isset($_POST['address']) ? htmlspecialchars($_POST['address']) : ''; ?>" required />
         </div>
 
         <div>
             <label for="password">Password</label>
-            <input type="password" id="password" name="password" placeholder="Enter password" />
+            <input type="password" id="password" name="password" placeholder="Enter password" required />
         </div>
 
         <div>
             <label for="password2">Confirm Password</label>
-            <input type="password" id="password2" name="password2" placeholder="Re-enter password" />
+            <input type="password" id="password2" name="password2" placeholder="Re-enter password" required />
         </div>
 
     </div>
